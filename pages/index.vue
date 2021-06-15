@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-red">
+  <div>
     <!-- <h1>Home page</h1> -->
     <!-- Hero  -->
-    <Hero heroImg="img/building_6.jpeg">
+    <Hero hero-img="img/home_2.jpeg">
       <!-- heroContent -->
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
-
+    <SectionTitle title="Featured Buildings" />
     <!-- In the featuredBuildingCard -->
     <BuildingsSlider>
       <div v-for="(building, i) in buildings" :key="i">
@@ -15,8 +15,8 @@
       </div>
     </BuildingsSlider>
     <!-- Work on featuredBuildingSlider and FeaturedBuildingCard -->
-    <Cta />
     <!-- work on Cta and figure -->
+    <Cta />
     <!-- SeachBuilding -->
     <BuildingsSlider>
       <!-- v-for all/filtered buildings add slot of filteredBuildingCard -->
@@ -24,7 +24,8 @@
         <FilteredBuildingCard :building="building" />
       </div>
     </BuildingsSlider>
-    <!--  -->
+    <!-- CTA with form  -->
+    <FormCta />
   </div>
 </template>
 
@@ -39,12 +40,27 @@ export default {
       buildings: [
         {
           name: 'nick',
+          image: 'img/building_1.jpeg',
         },
         {
           name: 'Jasen',
+          image: 'img/building_2.jpeg',
         },
         {
           name: 'Danny',
+          image: 'img/building_1.jpeg',
+        },
+        {
+          name: 'Robbin',
+          image: 'img/building_2.jpeg',
+        },
+        {
+          name: 'Sarah',
+          image: 'img/building_1.jpeg',
+        },
+        {
+          name: 'Jhon',
+          image: 'img/building_2.jpeg',
         },
       ],
     }

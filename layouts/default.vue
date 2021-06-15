@@ -1,9 +1,17 @@
 <template>
   <!-- page wrapper -->
   <div>
-    <div class="flex flex-col min-h-screen bg-background-900 text-onBackground">
+    <div
+      class="
+        flex flex-col
+        min-h-screen
+        w-screen
+        bg-background-900
+        text-onBackground
+      "
+    >
       <!-- navbar -->
-      <Navbar class="sticky top-0 z-50" />
+      <!-- <Navbar class="sticky top-0 z-50" /> -->
 
       <!-- page content -->
       <Nuxt class="flex-grow z-40" />
@@ -13,7 +21,7 @@
     </div>
 
     <!-- scroll to top -->
-    <a
+    <!-- <a
       v-scroll-to="'body'"
       href="#"
       class="
@@ -48,7 +56,7 @@
       "
     >
       ^
-    </a>
+    </a> -->
   </div>
 </template>
 

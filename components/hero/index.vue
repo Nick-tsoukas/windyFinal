@@ -11,7 +11,6 @@
               ml-auto
               absolute
               w-screen
-              md:w-3/4
               justify-items-end
               h-screen
               object-cover
@@ -53,7 +52,7 @@ export default {
   props: {
     heroImg: {
       type: String,
-      default: 'img/home_2.jpeg',
+      default: 'img/homeH.jpeg',
     },
   },
 }

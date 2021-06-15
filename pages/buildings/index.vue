@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero heroImg="img/building_6.jpeg" />
+    <Hero heroImg="img/homeH.jpeg" />
     <h1 class="text-6xl">Buildings Page</h1>
     <nuxt-link to="/buildings/some-building">some building link</nuxt-link>
   </div>

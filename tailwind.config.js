@@ -8,6 +8,7 @@ module.exports = {
     './nuxt.config.{js,ts}',
     './assets/**/*.svg',
   ],
+  height: ['278px', '700px'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
