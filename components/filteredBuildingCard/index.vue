@@ -10,7 +10,8 @@
 
       <p class="text-2xl">5555 N Kildare Street</p>
       <p class="pb-4 text-2xl">Chicago, IL</p>
-      <button
+      <nuxtLink
+        to="/buildings"
         class="
           bg-transparent
           hover:bg-blue-500
@@ -25,7 +26,7 @@
         "
       >
         Learn More
-      </button>
+      </nuxtLink>
     </div>
   </div>
 </template>
