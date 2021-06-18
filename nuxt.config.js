@@ -9,7 +9,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  css: [],
+  css: ['~/assets/css/main.css'],
   plugins: [],
   components: true,
   buildModules: [
@@ -17,10 +17,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
   ],
-  modules: [
-    '@nuxtjs/pwa',
-    '@nuxt/content',
-  ],
+  modules: ['@nuxtjs/pwa', '@nuxt/content'],
   pwa: {
     manifest: {
       lang: 'en',
