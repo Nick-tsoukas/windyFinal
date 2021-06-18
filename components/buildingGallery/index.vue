@@ -1,46 +1,26 @@
 <template>
-  <div class="lg:pt-20 pb-20 pl-10 pr-10 flex flex-row height_ gap-6">
-    <div class="md:w-screen lg:h-full w-2/5 flex-grow">
-      <img class="h-full object-cover" src="img/home_4.jpeg" alt="" />
+  <div class="height_ main_container">
+    <div class="flex flex-row md:w-screen lg:w-1/3 bg-blue-800 h-full">
+      <img class="object-cover" src="img/home_2.jpeg" alt="" />
     </div>
-    <div class="h-auto w-full lg:h-full">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
-        <img
-          class="object-cover"
-          style="height: 220px"
-          src="img/home_2.jpeg"
-          alt=""
-        />
+    <div class="gallery_container md:w-screen lg:w-2/3 h-full">
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
+      </div>
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
+      </div>
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
+      </div>
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
+      </div>
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
+      </div>
+      <div class="image_size">
+        <img class="object-cover" src="img/home_3.jpeg" alt="" />
       </div>
     </div>
   </div>
@@ -50,6 +30,30 @@
 export default {}
 </script>
 <style scoped>
+img {
+  object-fit: cover;
+}
+.gallery_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+}
+.image_size {
+  flex-basis: 30%;
+  height: 40%;
+}
+
+.main_container {
+  display: flex;
+}
+
+.flex_ {
+  display: flex;
+}
+
 .height_ {
   height: 620px;
 }
