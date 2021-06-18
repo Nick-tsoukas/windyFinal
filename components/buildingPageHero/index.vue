@@ -2,11 +2,11 @@
   <div class="relative w-screen height_">
     <img
       style="z-index: -999"
-      class="height_ object-cover w-2/3 absolute right-0 top-0 z-10"
+      class="height_ object-cover absolute right-0 top-0 z-10 w-screen xl:w-2/3"
       src="img/home_4.jpeg"
       alt=""
     />
-    <div class="w-screen lg:w-2/3 pt-24 pl-24">
+    <div class="w-screen lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
       <h1
         class="
           z-30
@@ -14,8 +14,8 @@
           sm:z-50
           text-center text-4xl
           md:text-6xl
-          left
           lg:text-7xl
+          xl:textp
         "
       >
         Bolden Gate Apartments

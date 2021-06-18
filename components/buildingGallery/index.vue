@@ -30,9 +30,13 @@ export default {}
   width: 40%;
 }
 .main_container {
+  background: rgb(227 236 223);
   height: 600px;
   width: 100%;
   display: flex;
+  margin-top: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .gallery_grid {

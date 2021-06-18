@@ -4,9 +4,10 @@
     <BuildingPageHero />
     <!-- call to action and description -->
     <!-- gallery container -->
-    <BuildingGalleryContainer>
-      <BuildingGallery />
-    </BuildingGalleryContainer>
+    <!-- <BuildingGalleryContainer>
+      
+    </BuildingGalleryContainer> -->
+    <BuildingGallery />
   </div>
 
   <!-- <div>
