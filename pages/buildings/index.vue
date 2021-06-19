@@ -5,8 +5,9 @@
     <!-- call to action and description -->
     <!-- gallery container -->
     <!-- <BuildingGalleryContainer>
-      
     </BuildingGalleryContainer> -->
+    <!-- building intro component -->
+    <BuildingIntro />
     <BuildingGallery />
   </div>
 

@@ -11,12 +11,6 @@
       <nuxt-img src="/home_3.jpeg" />
       <nuxt-img src="/home_3.jpeg" />
       <nuxt-img src="/home_3.jpeg" />
-
-      <!-- <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" /> -->
     </div>
   </div>
 </template>
