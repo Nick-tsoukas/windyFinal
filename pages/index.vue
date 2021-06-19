@@ -24,6 +24,7 @@
         <FilteredBuildingCard :building="building" />
       </div>
     </BuildingsSlider>
+
     <!-- CTA with form  -->
     <FormCta />
   </div>

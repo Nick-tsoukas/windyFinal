@@ -10,18 +10,22 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: ['~/assets/css/main.css'],
-  plugins: [],
+  plugins: ['~/plugins/vue-easy-lightbox.js'],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
+    '@nuxt/image',
   ],
   modules: ['@nuxtjs/pwa', '@nuxt/content'],
   pwa: {
     manifest: {
       lang: 'en',
     },
+  },
+  image: {
+    dir: 'static/img',
   },
   content: {},
   build: {},

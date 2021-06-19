@@ -1,15 +1,22 @@
 <template>
   <div class="main_container">
     <div class="main_image">
-      <img class="first_image" src="img/home_3.jpeg" alt="" />
+      <!-- read nuxt documentation for sizeing -->
+      <nuxt-img class="first_image" src="/home_3.jpeg" />
     </div>
     <div class="gallery_grid">
+      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img src="/home_3.jpeg" />
+
+      <!-- <img class="gal_image" src="img/home_3.jpeg" alt="" />
       <img class="gal_image" src="img/home_3.jpeg" alt="" />
       <img class="gal_image" src="img/home_3.jpeg" alt="" />
       <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
-      <img class="gal_image" src="img/home_3.jpeg" alt="" />
+      <img class="gal_image" src="img/home_3.jpeg" alt="" /> -->
     </div>
   </div>
 </template>
@@ -34,7 +41,6 @@ export default {}
   height: 600px;
   width: 100%;
   display: flex;
-  margin-top: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
