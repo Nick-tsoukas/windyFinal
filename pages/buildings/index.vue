@@ -2,13 +2,11 @@
   <div>
     <!-- hero component first -->
     <BuildingPageHero />
-    <!-- call to action and description -->
-    <!-- gallery container -->
-    <!-- <BuildingGalleryContainer>
-    </BuildingGalleryContainer> -->
-    <!-- building intro component -->
+
+    <AltBuildingGallery />
     <BuildingIntro />
-    <BuildingGallery />
+    <Amenities />
+    <FormCta />
   </div>
 
   <!-- <div>

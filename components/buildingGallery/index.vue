@@ -1,5 +1,6 @@
 <template>
-  <div class="main_container">
+  <!-- must fix gallery slider on mobile to swipe to the left and right -->
+  <div class="main_container bg-gray-100 pl-6 pr-6">
     <div class="main_image">
       <!-- read nuxt documentation for sizeing -->
       <nuxt-img class="first_image" src="/home_3.jpeg" />
@@ -26,17 +27,18 @@ export default {}
 
 .first_image {
   height: 100%;
+  padding: 2rem;
 }
 .main_image {
   width: 40%;
 }
 .main_container {
-  background: rgb(227 236 223);
-  height: 600px;
+  height: 700px;
   width: 100%;
   display: flex;
   padding-top: 1em;
   padding-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .gallery_grid {

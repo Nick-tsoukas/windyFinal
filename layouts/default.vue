@@ -12,7 +12,7 @@
     >
       <!-- navbar -->
       <!-- <Navbar class="sticky top-0 z-50" /> -->
-
+      <AltHeader />
       <!-- page content -->
       <Nuxt class="flex-grow z-40" />
 
