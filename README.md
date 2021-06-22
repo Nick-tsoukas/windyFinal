@@ -3,7 +3,7 @@
 - [x] fix home hero image text on mobile
   - [x] center the text
 - [x] center the text of section title on the mobile
-- [] make building slider on home page smaller on mobile and make it readable
+- [x] make building slider on home page smaller on mobile and make it readable
   - [] add add bedroom icons
 - [] fix call to action
 

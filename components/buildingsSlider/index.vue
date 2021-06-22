@@ -30,6 +30,13 @@ export default {}
   min-height: 800px;
   background-color: #f0efef;
 }
+@media only screen and (max-width: 900px) {
+  .container {
+    min-height: 650px;
+    height: auto;
+    background-color: #f0efef;
+  }
+}
 
 /* Hide scrollbar for IE, Edge and Firefox */
 </style>
