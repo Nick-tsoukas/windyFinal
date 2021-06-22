@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.red_s {
+  color: red !important;
+}
+
+
+@layer utilities {
+    .rale {
+        font-family:'Raleway', sans-serif !important;
+      }
+      .lato {
+        font-family: 'Lato', sans-serif !important;
+      }
+      .red_s {
+        color: red !important;
+      }
+}

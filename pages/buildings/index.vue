@@ -16,5 +16,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          link: [{ rel: 'stylesheet', href: '../css/main.css' }],
+        },
+      ],
+    }
+  },
+}
 </script>

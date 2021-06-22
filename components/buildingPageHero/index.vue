@@ -9,13 +9,13 @@
     <div class="w-screen z-50 lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
       <h1
         class="
+          lato
           z-50
           font-bold
           sm:z-50
           text-center text-4xl
           md:text-6xl
           lg:text-7xl
-          xl:textp
         "
       >
         Bolden Gate Apartments

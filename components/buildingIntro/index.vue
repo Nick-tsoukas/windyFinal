@@ -1,10 +1,10 @@
 <template>
-  <div class="flex h-full flex-col sm:flex-col md:flex-row">
-    <div class="h-auto w-screen p-3 md:p-20 md:w-3/5 lg:lg:pl-36 lg:pr-36">
+  <div class="flex h-full flex-col mx-auto sm:flex-col lg:flex-row">
+    <div class="h-auto w-screen p-8 lg:w-3/5 lg:lg:pl-36 lg:pr-36">
       <h1 class="text-4xl mb-10 text-center md:text-left">
         At the Bolden Apartments
       </h1>
-      <p class="text-xl pb-6">
+      <p class="lato text-2xl pb-6">
         With views of Downtown Chicago and unique architecture, Bolden
         Apartments offers a one of a kind living experience. Check out your new
         studio, 1, 2 or 3 bedroom apartment home today. Located close to Lincoln
@@ -16,13 +16,13 @@
         <li
           v-for="item in items"
           :key="item.message"
-          class="list-disc ml-4 text-lg"
+          class="list-disc ml-4 text-2xl"
         >
           {{ item.message }}
         </li>
       </ul>
     </div>
-    <div class="h-auto w-screen p-4 md:w-2/5 md:p-10">
+    <div class="h-auto w-screen p-4 lg:w-2/5 lg:p-10">
       <FormSide />
     </div>
   </div>
@@ -47,4 +47,20 @@ export default {
 .indent_ {
   text-indent: 50px;
 }
+
+/* ul li::before {
+  content: '';
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/fb-heart.gif);
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+} */
+
+/* li::before {
+  content: url('static/img/home_3.jpeg');
+} */
 </style>
