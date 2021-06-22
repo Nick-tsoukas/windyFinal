@@ -1,6 +1,6 @@
 <template>
   <!-- hero containert  -->
-  <div class="h-screen flex flex-col -mt-10 bg-primary text-white">
+  <div class="h-screen flex flex-col bg-primary text-white -mt-10">
     <!-- hero wrapper  -->
     <div class="relative">
       <div class="block absolute w-full">
@@ -37,7 +37,7 @@
 
         <!-- hero content slot  -->
         <div class="flex flex-row items-center z-50 trasition-all">
-          <div class="relative flex flex-col justify-center h-screen pt-10">
+          <div class="relative flex flex-col justify-center h-screen">
             <slot></slot>
           </div>
         </div>

@@ -1,15 +1,15 @@
 <template>
   <div class="box relative">
-    <img class="object-cover" :src="building.image" />
-    <div class="card_info p-14">
+    <img class="object-cover lg:max-h-96" :src="building.image" />
+    <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
-        <h2 class="text-3xl flex-grow">Kenmore Building</h2>
-        <p class="flex-grow text-2xl">$1200 - $1500</p>
+        <h2 class="text-2xl flex-grow">Kenmore Building</h2>
+        <p class="flex-grow text-1xl">$1200 - $1500</p>
       </div>
-      <h2 class="text-2xl pb-10 flex-grow">West Loop</h2>
+      <h2 class="flex-grow text-1xl xl:text-2xl xl:pb-10">West Loop</h2>
 
-      <p class="text-2xl">5555 N Kildare Street</p>
-      <p class="pb-10 text-2xl">Chicago, IL</p>
+      <p class="text-1xl xl:text-2xl">5555 N Kildare Street</p>
+      <p class="pb-10 text-1xl xl:text-2xl">Chicago, IL</p>
       <nuxtLink
         to="/buildings"
         class="
@@ -46,17 +46,29 @@ export default {
 
 <style scoped>
 .box {
-  width: 750px;
-  height: 500px;
+  width: 550px;
+  height: 400px;
   margin: 4rem;
 }
 
 .card_info {
   background: rgba(255, 255, 255, 0.88);
-  width: 585px;
+  width: 450px;
   height: 375px;
   position: absolute;
   bottom: -200px;
-  right: 0;
+  right: -50px;
+}
+@media only screen and (max-width: 900px) {
+  .box {
+    width: 350px;
+    height: 300px;
+  }
+  .card_info {
+    height: 300px;
+    width: 350px;
+    right: 0;
+    bottom: -210px;
+  }
 }
 </style>
