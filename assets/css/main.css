@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+h1, h2, h3 {
+  font-family:'Raleway', sans-serif !important;
+}
+
+p {
+  font-family: 'Lato', sans-serif !important;
+
+}
+
+li {
+  font-family: 'Lato', sans-serif !important;
+
+}
+
+button {
+  font-family: 'Lato', sans-serif !important;
+
+}
 .red_s {
   color: red !important;
 }
@@ -18,3 +36,4 @@
     height: 620px;
   }
 }
+

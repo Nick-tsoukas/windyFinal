@@ -9,7 +9,7 @@
       <h2 class="text-2xl pb-10 flex-grow">West Loop</h2>
 
       <p class="text-2xl">5555 N Kildare Street</p>
-      <p class="pb-4 text-2xl">Chicago, IL</p>
+      <p class="pb-10 text-2xl">Chicago, IL</p>
       <nuxtLink
         to="/buildings"
         class="

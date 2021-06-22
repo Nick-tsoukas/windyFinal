@@ -1,6 +1,6 @@
 <template>
   <div class="height_container pt-32 pl-32 relative">
-    <p class="text-white z-50">Find your dream house</p>
+    <p class="text-white z-50 pb-6">Find your dream house</p>
     <h1 class="text-6xl text-white z-50">Find the place of your dreams</h1>
     <div class="gradient"></div>
   </div>

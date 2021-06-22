@@ -7,7 +7,7 @@
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
-    <SectionTitle title="Featured Buildings" />
+    <SectionTitle class="pl-36 pt-6" title="Featured Buildings" />
     <!-- In the featuredBuildingCard -->
     <BuildingsSlider>
       <div v-for="(building, i) in buildings" :key="i">

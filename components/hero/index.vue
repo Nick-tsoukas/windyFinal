@@ -57,3 +57,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.back {
+  z-index: -1;
+}
+</style>
