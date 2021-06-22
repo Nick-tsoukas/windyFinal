@@ -1,7 +1,19 @@
 <template>
-  <div class="height_container pt-32 pl-32 relative">
-    <p class="text-white z-50 pb-6">Find your dream house</p>
-    <h1 class="text-6xl text-white z-50">Find the place of your dreams</h1>
+  <div
+    class="
+      height_container
+      text-center
+      flex flex-col
+      justify-center
+      items-center
+      relative
+      xl:pl-32 xl:pt-32
+    "
+  >
+    <p class="text-white text-xl z-50 pb-6">Find your dream house</p>
+    <h1 class="text-5xl font-bold xl:text-6xl text-white z-50">
+      Find the place of your dreams
+    </h1>
     <div class="gradient"></div>
   </div>
 </template>
@@ -26,5 +38,11 @@ export default {}
   z-index: -1;
   height: 100%;
   width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .height_container {
+    height: 600px;
+  }
 }
 </style>

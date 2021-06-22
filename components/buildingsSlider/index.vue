@@ -29,6 +29,7 @@ export default {}
 .container {
   min-height: 800px;
   background-color: #f0efef;
+  overscroll-behavior-x: none;
 }
 @media only screen and (max-width: 900px) {
   .container {
