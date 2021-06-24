@@ -28,5 +28,5 @@ collections:
         name: 'galleryImages'
         widget: 'list'
         fields:
-          - { label: 'Source', name: 'src', widget: 'string' }
+          - { label: 'Image', name:'image', widget: 'image' }
           - { label: 'Alt Text', name: 'alt', widget: 'string' }
