@@ -6,9 +6,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'building'
+    label: 'Building'
+    folder: 'content/building'
     format: 'frontmatter'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -16,6 +16,31 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Address', name: 'address', widget: 'string' }
+      - { label: 'City', name: 'city', widget: 'text', defalut: 'Chicago' }
+      - { label: 'State', name: 'state', widget: 'text', default: 'IL' }
+      - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
+      - { label: 'Featured Image', name: 'featImage', widget: 'image' }
+      - label: "Gallery" 
+        name: "galleryImages" 
+        widget: "list" 
+        fields:
+          - { label: "Source", name: "src", widget: "string" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
+        
+
+
+- [x] title
+- [x] id = address
+- [x] description
+- [x] featured
+- [x] featured image
+- [] images for gallery
+- [] price range
+- [] address
+- [] neighborhood
+- [] city
+- [] state
+- [] unit range
+- [] ammenities
+  - [] list of items taged
