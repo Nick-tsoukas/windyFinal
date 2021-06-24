@@ -15,8 +15,8 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Address', name: 'address', widget: 'string' }
-      - { label: 'City', name: 'city', widget: 'text', defalut: 'Chicago' }
-      - { label: 'State', name: 'state', widget: 'text', default: 'IL' }
+      - { label: 'City', name: 'city', widget: 'string', defalut: 'Chicago' }
+      - { label: 'State', name: 'state', widget: 'string', default: 'IL' }
       - {
           label: 'Featured',
           name: 'featured',
