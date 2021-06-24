@@ -1,10 +1,8 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-
 media_folder: static/img
 public_folder: /img
-
 collections:
   - name: 'building'
     label: 'Building'
@@ -19,28 +17,16 @@ collections:
       - { label: 'Address', name: 'address', widget: 'string' }
       - { label: 'City', name: 'city', widget: 'text', defalut: 'Chicago' }
       - { label: 'State', name: 'state', widget: 'text', default: 'IL' }
-      - { label: 'Featured', name: 'featured', widget: 'boolean', default: false }
+      - {
+          label: 'Featured',
+          name: 'featured',
+          widget: 'boolean',
+          default: false,
+        }
       - { label: 'Featured Image', name: 'featImage', widget: 'image' }
-      - label: "Gallery" 
-        name: "galleryImages" 
-        widget: "list" 
+      - label: 'Gallery'
+        name: 'galleryImages'
+        widget: 'list'
         fields:
-          - { label: "Source", name: "src", widget: "string" }
-          - { label: "Alt Text", name: "alt", widget: "string" }
-        
-
-
-- [x] title
-- [x] id = address
-- [x] description
-- [x] featured
-- [x] featured image
-- [] images for gallery
-- [] price range
-- [] address
-- [] neighborhood
-- [] city
-- [] state
-- [] unit range
-- [] ammenities
-  - [] list of items taged
+          - { label: 'Source', name: 'src', widget: 'string' }
+          - { label: 'Alt Text', name: 'alt', widget: 'string' }
