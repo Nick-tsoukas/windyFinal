@@ -37,7 +37,7 @@ collections:
           - { label: 'Image', name: 'imagegal', widget: 'image' }
           - { label: 'Alt Text', name: 'alt', widget: 'string' }
   - name: 'settings'
-  - label: 'Settings'
+    label: 'Settings'
     folder: 'content/building'
     format: 'frontmatter'
     create: true
