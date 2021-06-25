@@ -36,3 +36,20 @@ collections:
         fields:
           - { label: 'Image', name: 'imagegal', widget: 'image' }
           - { label: 'Alt Text', name: 'alt', widget: 'string' }
+  - name: 'settings'
+  - label: 'Settings'
+    folder: 'content/building'
+    format: 'frontmatter'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Site Title', name: 'site_title', widget: 'string' }
+      - { label: 'Logo', name: 'logo', widget: 'image' }
+      - {
+          label: 'Meta Description',
+          name: 'meta_description',
+          widget: 'text',
+          defalut: 'This is a site where you can find luxuray apartments. Contact your agent today',
+        }
+      - { label: 'Header Image', name: 'header_image', widget: 'image' }

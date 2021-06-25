@@ -86,9 +86,10 @@
       </div>
     </div>
     <nuxt-img
-      sizes="md:290px lg:840px xl:50%"
+      sizes="md:290px lg:840px xl:50vw"
       src="img/building_4.jpeg"
-      class="hidden w-full h-full image md:block md:w-1/3 lg:w-1/2"
+      class="hidden w-full h-full image md:block md:w-1/2 lg:w-1/2"
+      format="webp"
     />
   </div>
 </template>
@@ -101,10 +102,4 @@ export default {}
 .height_900 {
   height: 900px;
 }
-
-/* .image {
-  background-image: url('static/img/building_4.jpeg');
-  background-position: center center;
-  background-size: cover;
-} */
 </style>

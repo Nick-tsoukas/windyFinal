@@ -19,6 +19,11 @@
 <script>
 export default {
   async asyncData({ $content, params, error }) {
+    const settings_ = await $content('settings')
+      .fetch()
+      .catch(() => {
+        error({ statusCode: 404, message: 'Page not found' })
+      })
     const buildings_ = await $content('building')
       .fetch()
       .catch(() => {
@@ -26,6 +31,7 @@ export default {
       })
     return {
       buildings_,
+      settings_,
     }
   },
   head() {
