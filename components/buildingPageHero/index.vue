@@ -3,8 +3,8 @@
     <img
       style="z-index: -1"
       class="height_ object-cover absolute right-0 top-0 w-screen xl:w-2/3"
-      src="img/home_4.jpeg"
       alt=""
+      :src="building.featImage"
     />
     <div class="w-screen z-50 lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
       <h1
@@ -17,7 +17,7 @@
           lg:text-7xl lg:text-black
         "
       >
-        Bolden Gate Apartments
+        {{ building.title }}
       </h1>
     </div>
     <!-- overlay  -->
@@ -36,11 +36,25 @@
         md:hidden
       "
     ></div>
+    <!-- <div style="width: 100vw; height: auto; background: black; color: white">
+      <pre>{{ building }}</pre>
+    </div> -->
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    building: {
+      type: Object,
+      default: () => {
+        return {
+          title: 'hello world',
+        }
+      },
+    },
+  },
+}
 </script>
 
 <style scoped>

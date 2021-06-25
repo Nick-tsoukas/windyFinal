@@ -1,13 +1,12 @@
 <template>
   <div>
     <!-- hero component first -->
-    <BuildingPageHero />
+    <BuildingPageHero :building="building" />
 
-    <AltBuildingGallery />
-    <BuildingIntro />
-    <Amenities />
+    <AltBuildingGallery :building="building" />
+    <BuildingIntro :building="building" />
+    <Amenities :building="building" />
     <FormCta />
-    <h1>Hello this is the home page</h1>
   </div>
 
   <!-- <div>
@@ -19,13 +18,16 @@
 <script>
 export default {
   async asyncData({ $content, params, error }) {
-    const buildings_ = await $content('building')
+    const building = await $content('building', params.slug)
       .fetch()
       .catch(() => {
-        error({ statusCode: 404, message: 'Page not found' })
+        error({
+          statusCode: 404,
+          message: 'Page not found',
+        })
       })
     return {
-      buildings_,
+      building,
     }
   },
   head() {

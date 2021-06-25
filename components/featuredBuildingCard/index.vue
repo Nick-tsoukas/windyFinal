@@ -1,6 +1,5 @@
 <template>
   <div class="box relative">
-    <pre>{{ building }}</pre>
     <nuxt-img
       class="object-cover lg:max-h-96"
       sizes="md:350px lg:550px"

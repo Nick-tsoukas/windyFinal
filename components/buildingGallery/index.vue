@@ -17,7 +17,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    building: {
+      type: Object,
+      default: () => {
+        return {
+          title: 'hello world',
+        }
+      },
+    },
+  },
+}
 </script>
 
 <style scoped>
