@@ -2,9 +2,6 @@
   <div>
     <!-- hero component first -->
     <BuildingPageHero :building="building" />
-    <h1 class="text-red-700 text-6xl">
-      <pre>{{ building }}</pre>
-    </h1>
     <AltBuildingGallery :building="building" />
     <BuildingIntro :building="building" />
     <Amenities :building="building" />
