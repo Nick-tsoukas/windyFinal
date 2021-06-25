@@ -7,6 +7,7 @@
       sizes="xs:300px sm:300px md:300px lg:500px xl:500px"
       height="300px"
       :alt="image.alt"
+      format="webp"
     />
   </div>
 </template>

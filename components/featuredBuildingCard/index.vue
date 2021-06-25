@@ -5,6 +5,7 @@
       sizes="md:350px lg:550px"
       :src="building.featImage"
       :alt="building.alt"
+      format="webp"
     />
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">

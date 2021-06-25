@@ -6,12 +6,41 @@
       <nuxt-img class="first_image" src="/home_3.jpeg" />
     </div>
     <div class="gallery_grid">
-      <nuxt-img src="/home_3.jpeg" />
-      <nuxt-img src="/home_3.jpeg" />
-      <nuxt-img src="/home_3.jpeg" />
-      <nuxt-img src="/home_3.jpeg" />
-      <nuxt-img src="/home_3.jpeg" />
-      <nuxt-img src="/home_3.jpeg" />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
+      <nuxt-img
+        format="webp"
+        sizes="xs:300px sm:300px md:300px lg:300px xl:300px"
+        src="/home_3.jpeg"
+      />
     </div>
   </div>
 </template>
