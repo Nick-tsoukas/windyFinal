@@ -3,7 +3,7 @@
     <nuxt-img
       style="z-index: -1"
       class="height_ object-cover absolute right-0 top-0 w-screen xl:w-2/3"
-      alt=""
+      :alt="building.alt"
       :src="building.featImage"
       height="100vh"
       sizes="xs:320px sm:640px md:768px lg:1024px xl:1680px"
