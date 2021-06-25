@@ -11,12 +11,6 @@
       class="mx-auto text-center xl:pl-36 xl:text-left pt-6"
       title="Featured Buildings"
     />
-    <!-- <BuildingsSlider>
-
-      <div v-for="(building, i) in featBUildings_" :key="i">
-        <Card :building="building" />
-      </div>
-    </BuildingsSlider> -->
     <!-- In the featuredBuildingCard -->
     <pre>{{ featBUildings_[0] }}</pre>
     <BuildingsSlider>
@@ -28,11 +22,11 @@
     <!-- work on Cta and figure -->
     <Cta />
     <!-- SeachBuilding -->
-    <!-- <BuildingsSlider>
-      <div v-for="(building, i) in buildings" :key="i">
-        <FilteredBuildingCard :building="building" />
+    <BuildingsSlider>
+      <div v-for="(building, i) in buildings_" :key="i">
+        <FeaturedBuildingCard :building="building" />
       </div>
-    </BuildingsSlider> -->
+    </BuildingsSlider>
 
     <!-- CTA with form  -->
     <FormCta />

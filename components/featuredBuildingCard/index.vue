@@ -1,5 +1,6 @@
 <template>
   <div class="box relative">
+    <h1>This is a card</h1>
     <img class="object-cover lg:max-h-96" :src="building.image" />
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
