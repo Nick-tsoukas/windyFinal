@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-row overflow-y-scroll gap-1 pt-10 pb-10 bg-black">
-    <nuxt-picture
-      :key="(image.imagegal += index)"
-      :v-for="(image, index) in building.galleryImages"
+    <nuxt-img
+      v-for="(image, index) in building.galleryImages"
+      :key="index"
       :src="image.imagegal"
       sizes="xs:300px sm:300px md:300px lg:500px xl:500px"
       height="300px"
