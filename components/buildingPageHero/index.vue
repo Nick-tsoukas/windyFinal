@@ -1,10 +1,11 @@
 <template>
   <div class="relative w-screen height_">
-    <img
+    <nuxt-img
       style="z-index: -1"
       class="height_ object-cover absolute right-0 top-0 w-screen xl:w-2/3"
       alt=""
       :src="building.featImage"
+      sizes="xs:100vw sm:100vw md:100vw lg:1680px xl:1680px"
     />
     <div class="w-screen z-50 lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
       <h1
