@@ -17,7 +17,7 @@ collections:
       - { label: 'Address', name: 'address', widget: 'string' }
       - { label: 'City', name: 'city', widget: 'string', defalut: 'Chicago' }
       - { label: 'State', name: 'state', widget: 'string', default: 'IL' }
-      - { label: 'Pet Friendly', name: 'pet', widget: 'boolean', default: true }
+      - { label: 'Pet Friendly', name: 'pet', widget: 'boolean' }
       - {
           label: 'Description',
           name: 'description',
