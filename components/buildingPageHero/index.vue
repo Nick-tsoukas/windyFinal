@@ -5,7 +5,8 @@
       class="height_ object-cover absolute right-0 top-0 w-screen xl:w-2/3"
       alt=""
       :src="building.featImage"
-      sizes="xs:100vw sm:100vw md:100vw lg:1680px xl:1680px"
+      height="100vh"
+      sizes="xs:320px sm:640px md:768px lg:1024px xl:1680px"
       format="webp"
     />
     <div class="w-screen z-50 lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
