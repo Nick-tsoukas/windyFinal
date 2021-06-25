@@ -1,5 +1,6 @@
 <template>
   <div class="box relative">
+    <pre>{{ building }}</pre>
     <nuxt-img
       class="object-cover lg:max-h-96"
       sizes="md:350px lg:550px"
@@ -18,7 +19,7 @@
         {{ building.city }}, {{ building.state }}
       </p>
       <nuxtLink
-        to="/buildings"
+        :to="`/buildings/${building.slug}`"
         class="
           bg-transparent
           hover:bg-blue-500
@@ -47,6 +48,11 @@ export default {
         return {}
       },
     },
+  },
+
+  async asyncData({ params }) {
+    const slug = await params.slug // When calling /abc the slug will be "abc"
+    return { slug }
   },
 }
 </script>

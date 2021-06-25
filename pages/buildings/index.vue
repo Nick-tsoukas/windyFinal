@@ -18,6 +18,16 @@
 
 <script>
 export default {
+  async asyncData({ $content, params, error }) {
+    const buildings_ = await $content('building')
+      .fetch()
+      .catch(() => {
+        error({ statusCode: 404, message: 'Page not found' })
+      })
+    return {
+      buildings_,
+    }
+  },
   head() {
     return {
       meta: [

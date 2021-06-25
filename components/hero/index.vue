@@ -17,7 +17,7 @@
               object-cover
             "
             :src="heroImg"
-            alt=""
+            alt="image of luxury apartment in chicagos"
           />
         </div>
 

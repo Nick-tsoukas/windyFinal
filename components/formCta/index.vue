@@ -12,7 +12,7 @@
           <div class="flex flex-col pt-28">
             <div class="w-full sm:w-2/3">
               <label
-                for="email"
+                for="name"
                 class="block text-sm font-medium text-white pb-2 pt-2"
                 >Full Names</label
               >
