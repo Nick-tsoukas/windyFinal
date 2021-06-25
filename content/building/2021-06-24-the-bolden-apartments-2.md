@@ -3,7 +3,7 @@ title: The Craft Apartments
 address: 888 W Lincoln ST
 city: CHICAGO
 state: IL
-featured: true
+featured: false
 featImage: /img/home_2.jpeg
 galleryImages:
   - imagegal: /img/home_5.jpeg
