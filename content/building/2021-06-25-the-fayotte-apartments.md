@@ -3,6 +3,7 @@ title: The Fayotte Apartments
 address: 8888 Taylor Street
 city: Chicago
 state: IL
+pet: true
 description: "With views of Downtown Chicago and unique architecture, Bolden
   Apartments offers a one of a kind living experience. Check out your new
   studio, 1, 2 or 3 bedroom apartment home today. Located close to Lincoln Park,
