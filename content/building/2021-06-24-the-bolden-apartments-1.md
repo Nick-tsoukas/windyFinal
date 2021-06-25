@@ -1,5 +1,5 @@
 ---
-title: The Bolden Apartments
+title: The Gray Apartments
 address: 810 W RANDOLPH ST
 city: CHICAGO
 state: IL
