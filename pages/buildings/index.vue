@@ -2,6 +2,7 @@
   <div>
     <!-- hero component first -->
     <BuildingPageHero />
+    <h1>This is some data</h1>
 
     <AltBuildingGallery />
     <BuildingIntro />

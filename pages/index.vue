@@ -7,6 +7,8 @@
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
+    <h1>Where are the settings</h1>
+    <pre>{{ settings_ }}</pre>
     <SectionTitle
       class="mx-auto text-center xl:pl-36 xl:text-left pt-6"
       title="Featured Buildings"
@@ -40,9 +42,13 @@ export default {
     const featBUildings_ = await $content('building')
       .where({ featured: true })
       .fetch()
+    const settings_ = await $content('settings')
+      .where({ featured: false })
+      .fetch()
     return {
       buildings_,
       featBUildings_,
+      settings_,
     }
   },
 
