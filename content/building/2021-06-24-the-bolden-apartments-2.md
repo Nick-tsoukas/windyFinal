@@ -4,7 +4,7 @@ address: 888 W Lincoln ST
 city: CHICAGO
 state: IL
 featured: true
-featImage: /img/homeH.jpeg
+featImage: /img/home_2.jpeg
 galleryImages:
   - imagegal: /img/home_5.jpeg
     alt: building
