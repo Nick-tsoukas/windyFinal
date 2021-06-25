@@ -3,13 +3,15 @@
     <img class="object-cover lg:max-h-96" :src="building.image" />
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
-        <h2 class="text-2xl flex-grow">Kenmore Building</h2>
+        <h2 class="text-2xl flex-grow">{{ building.title }}</h2>
         <p class="flex-grow text-1xl">$1200 - $1500</p>
       </div>
       <h2 class="flex-grow text-1xl xl:text-2xl xl:pb-10">West Loop</h2>
 
-      <p class="text-1xl xl:text-2xl">5555 N Kildare Street</p>
-      <p class="pb-10 text-1xl xl:text-2xl">Chicago, IL</p>
+      <p class="text-1xl xl:text-2xl">{{ building.address }}</p>
+      <p class="pb-10 text-1xl xl:text-2xl">
+        {{ building.city }}, {{ building.state }}
+      </p>
       <nuxtLink
         to="/buildings"
         class="
