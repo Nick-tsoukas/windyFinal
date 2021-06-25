@@ -34,10 +34,10 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const buildings_ = await $content('building')
+    const buildings_ = await $content('buildings')
       .where({ featured: false })
       .fetch()
-    const featBUildings_ = await $content('building')
+    const featBUildings_ = await $content('buildings')
       .where({ featured: true })
       .fetch()
     return {
@@ -50,36 +50,6 @@ export default {
   // async data later will get site data from nuxt content
   // will pass featured buildings as props to featured buildings component
   // will pass all building as props to search building components
-  data: () => {
-    return {
-      buildings: [
-        {
-          name: 'nick',
-          image: 'img/building_1.jpeg',
-        },
-        {
-          name: 'Jasen',
-          image: 'img/building_2.jpeg',
-        },
-        {
-          name: 'Danny',
-          image: 'img/building_1.jpeg',
-        },
-        {
-          name: 'Robbin',
-          image: 'img/building_2.jpeg',
-        },
-        {
-          name: 'Sarah',
-          image: 'img/building_1.jpeg',
-        },
-        {
-          name: 'Jhon',
-          image: 'img/building_2.jpeg',
-        },
-      ],
-    }
-  },
   head() {
     return {
       script: [
