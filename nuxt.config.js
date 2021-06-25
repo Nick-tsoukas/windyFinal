@@ -32,9 +32,9 @@ export default {
       lang: 'en',
     },
   },
-  image: {
-    dir: 'static/img',
-  },
+  // image: {
+  //   dir: '/img',
+  // },
   content: {},
   build: {},
 }

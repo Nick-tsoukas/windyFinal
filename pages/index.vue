@@ -12,13 +12,11 @@
       title="Featured Buildings"
     />
     <!-- In the featuredBuildingCard -->
-    <pre>{{ featBUildings_[0] }}</pre>
     <BuildingsSlider>
       <div v-for="(building, i) in featBUildings_" :key="i">
         <FeaturedBuildingCard :building="building" />
       </div>
     </BuildingsSlider>
-    <!-- Work on featuredBuildingSlider and FeaturedBuildingCard -->
     <!-- work on Cta and figure -->
     <Cta />
     <!-- SeachBuilding -->

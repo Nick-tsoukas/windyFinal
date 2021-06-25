@@ -1,7 +1,12 @@
 <template>
   <div class="box relative">
-    <h1>This is a card</h1>
-    <img class="object-cover lg:max-h-96" :src="building.image" />
+    <pre>{{ building }}</pre>
+    <nuxt-img
+      class="object-cover lg:max-h-96"
+      sizes="md:350px lg:550px"
+      :src="building.featImage"
+      :alt="building.alt"
+    />
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
         <h2 class="text-2xl flex-grow">{{ building.title }}</h2>

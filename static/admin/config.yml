@@ -23,6 +23,12 @@ collections:
           widget: 'boolean',
           default: false,
         }
+      - {
+          label: 'Alt',
+          name: 'alt',
+          widget: 'string',
+          default: 'image of a building',
+        }
       - { label: 'Featured Image', name: 'featImage', widget: 'image' }
       - label: 'Gallery'
         name: 'galleryImages'

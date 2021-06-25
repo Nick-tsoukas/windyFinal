@@ -1,0 +1,37 @@
+{
+    "slug": "2021-06-25-the-gray-apartments-1",
+    "title": "The Gray Apartments",
+    "address": "699 W Taylor ST",
+    "city": "CHICAGO",
+    "state": "IL",
+    "featured": true,
+    "featImage": "/img/interio_home_white.jpeg",
+    "galleryImages": [
+      {
+        "imagegal": "/img/home_5.jpeg",
+        "alt": "building"
+      },
+      {
+        "imagegal": "/img/home_4.jpeg",
+        "alt": "home"
+      },
+      {
+        "imagegal": "/img/building_header_2.jpeg",
+        "alt": "this is a home "
+      },
+      {
+        "imagegal": "/img/home_4.jpeg",
+        "alt": "this is a home "
+      }
+    ],
+    "toc": [],
+    "body": {
+      "type": "root",
+      "children": []
+    },
+    "dir": "/building",
+    "path": "/building/2021-06-25-the-gray-apartments-1",
+    "extension": ".md",
+    "createdAt": "2021-06-25T13:57:28.034Z",
+    "updatedAt": "2021-06-25T13:57:28.034Z"
+  }
