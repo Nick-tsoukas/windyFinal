@@ -50,7 +50,7 @@ collections:
               'Gift Shop',
             ],
         }
-         - {
+      - {
           label: 'Home Amenities',
           name: 'home_amenities',
           widget: 'select',
@@ -66,20 +66,19 @@ collections:
               'Stainless steal',
               'Floor heater',
               'Bath Robes',
-              'Windows',
             ],
           default:
             [
-              'Washer',
-              'Dryer',
-              'Free Utilities',
-              'Microwave',
-              'Oven',
-              'Gas Stove Top',
-              'Stainless steal',
-              'Floor heater',
-              'Bath Robes',
-              'Windows',
+              'Pool',
+              'Hot tube',
+              'Community game room',
+              'Pool table',
+              'Grills',
+              'Outdoor area',
+              'Tv Screens',
+              'free coffee',
+              'Dog Bath',
+              'Gift Shop',
             ],
         }
 
