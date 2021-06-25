@@ -49,7 +49,7 @@ collections:
       - {
           label: 'Meta Description',
           name: 'meta_description',
-          widget: 'text',
+          widget: 'string',
           defalut: 'This is a site where you can find luxuray apartments. Contact your agent today',
         }
       - { label: 'Header Image', name: 'header_image', widget: 'image' }

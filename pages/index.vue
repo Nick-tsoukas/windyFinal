@@ -42,9 +42,7 @@ export default {
     const featBUildings_ = await $content('building')
       .where({ featured: true })
       .fetch()
-    const settings_ = await $content('settings')
-      .where({ featured: false })
-      .fetch()
+    const settings_ = await $content('settings').fetch()
     return {
       buildings_,
       featBUildings_,
@@ -58,6 +56,16 @@ export default {
   // will pass all building as props to search building components
   head() {
     return {
+      title: this.settings_.title,
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${this.settings_.meta_description}`,
+        },
+      ],
       script: [
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
       ],
