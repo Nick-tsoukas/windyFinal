@@ -2,13 +2,11 @@
   <div>
     <!-- <h1>Home page</h1> -->
     <!-- Hero  -->
-    <Hero hero-img="img/home_2.jpeg">
+    <Hero :hero-img="settings_[0].header_image">
       <!-- heroContent -->
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
-    <h1>Where are the settings</h1>
-    <pre>{{ settings_ }}</pre>
     <SectionTitle
       class="mx-auto text-center xl:pl-36 xl:text-left pt-6"
       title="Featured Buildings"
@@ -56,14 +54,15 @@ export default {
   // will pass all building as props to search building components
   head() {
     return {
-      title: this.settings_.title,
+      title: this.settings_[0].title,
       meta: [
+        { title: this.settings_[0].title },
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: `${this.settings_.meta_description}`,
+          content: this.settings_[0].meta_description,
         },
       ],
       script: [

@@ -18,6 +18,12 @@ collections:
       - { label: 'City', name: 'city', widget: 'string', defalut: 'Chicago' }
       - { label: 'State', name: 'state', widget: 'string', default: 'IL' }
       - {
+          label: 'Description',
+          name: 'description',
+          widget: 'text',
+          default: 'With views of Downtown Chicago and unique architecture, Bolden Apartments offers a one of a kind living experience. Check out your new studio, 1, 2 or 3 bedroom apartment home today. Located close to Lincoln Park, Wicker Park and Depaul University, Bucktown has become a new hotspot for living and entertainment. From dining to the arts, you can have it all just steps away from your home. ',
+        }
+      - {
           label: 'Featured',
           name: 'featured',
           widget: 'boolean',

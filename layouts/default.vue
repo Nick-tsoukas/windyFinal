@@ -12,12 +12,12 @@
     >
       <!-- navbar -->
       <!-- <Navbar class="sticky top-0 z-50" /> -->
-      <AltHeader />
+      <AltHeader :title="settings.title" />
       <!-- page content -->
       <Nuxt class="flex-grow z-40" />
-
       <!-- footer -->
       <Footer />
+      <h1>Hello this is the settings</h1>
     </div>
 
     <!-- scroll to top -->
@@ -62,10 +62,15 @@
 
 <script>
 export default {
-  data: () => {
+  data() {
     return {
+      settings: [],
       scrollY: 0,
     }
+  },
+  async fetch() {
+    const [title] = await this.$content('settings').fetch()
+    this.settings = title
   },
   created() {
     if (process.client) {
