@@ -32,9 +32,6 @@ export default {
       lang: 'en',
     },
   },
-  // image: {
-  //   dir: '/img',
-  // },
   content: {},
   build: {},
 }

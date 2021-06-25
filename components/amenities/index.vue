@@ -5,30 +5,46 @@
       <div class="flex-grow">
         <SectionTitle title="Community Amenities" />
         <ul class="grid grid-cols-2 gap-y-10 mb-8 lg:grid-cols-4 lg:gap-y-8">
-          <li v-for="amenity in community" :key="amenity" class="flex flex-row">
-            <img class="h-6 pr-4" src="img/check.svg" alt="" />{{ amenity }}
+          <li
+            v-for="amenity in building.community_amenities"
+            :key="amenity"
+            class="flex flex-row"
+          >
+            {{ amenity }}
           </li>
         </ul>
       </div>
-      <div class="hidden w-1/4 h-auto bg-black md:block"></div>
+      <div class="hidden w-1/4 h-auto bg-white md:block"></div>
     </div>
 
     <div class="flex flex-row">
       <div class="flex-grow">
         <SectionTitle title="Home Amenities" />
         <ul class="grid grid-cols-2 gap-y-10 mb-8 lg:grid-cols-4 lg:gap-y-8">
-          <li v-for="amenity in home" :key="amenity" class="flex flex-row">
-            <img class="h-6 pr-4" src="img/check.svg" alt="" />{{ amenity }}
+          <li
+            v-for="amenity in building.home_amenities"
+            :key="amenity"
+            class="flex flex-row"
+          >
+            {{ amenity }}
           </li>
         </ul>
       </div>
-      <div class="hidden w-1/4 h-auto bg-black md:block"></div>
+      <div class="hidden w-1/4 h-auto bg-white md:block"></div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    building: {
+      type: Object,
+      default() {
+        return {}
+      },
+    },
+  },
   data: () => {
     return {
       community: [

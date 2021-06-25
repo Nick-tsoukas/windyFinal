@@ -18,6 +18,8 @@ collections:
       - { label: 'City', name: 'city', widget: 'string', defalut: 'Chicago' }
       - { label: 'State', name: 'state', widget: 'string', default: 'IL' }
       - { label: 'Pet Friendly', name: 'pet', widget: 'boolean' }
+      - { label: 'Pet Friendly', name: 'pet', widget: 'boolean' }
+      - { label: 'Min Unit', name: 'min', widget: 'select', options:['studio', 1,2,3,4,5] }
       - {
           label: 'Community Amenities',
           name: 'community_amenities',
