@@ -34,10 +34,10 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const buildings_ = await $content('buildings')
+    const buildings_ = await $content('building')
       .where({ featured: false })
       .fetch()
-    const featBUildings_ = await $content('buildings')
+    const featBUildings_ = await $content('building')
       .where({ featured: true })
       .fetch()
     return {
