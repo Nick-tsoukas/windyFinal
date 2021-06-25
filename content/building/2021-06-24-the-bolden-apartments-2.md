@@ -1,6 +1,6 @@
 ---
-title: The Bolden Apartments
-address: 810 W RANDOLPH ST
+title: The Craft Apartments
+address: 888 W Lincoln ST
 city: CHICAGO
 state: IL
 featured: true
