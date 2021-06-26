@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "concurrently \"nuxt\" \"npm run cmsProxy\"",
     "build": "nuxt build",
     "start": "nuxt start",
+    "cmsProxy": "npx netlify-cms-proxy-server",
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
@@ -25,6 +26,7 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@tailwindcss/forms": "^0.3.3",
+    "concurrently": "^6.2.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "vue-easy-lightbox": "^0.16.1"

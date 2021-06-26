@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+local_backend:
+  url: http://localhost:8081/api/v1
 media_folder: static/img
 public_folder: /img
 collections:
@@ -18,8 +20,18 @@ collections:
       - { label: 'City', name: 'city', widget: 'string', defalut: 'Chicago' }
       - { label: 'State', name: 'state', widget: 'string', default: 'IL' }
       - { label: 'Pet Friendly', name: 'pet', widget: 'boolean' }
-      - { label: 'Pet Friendly', name: 'pet', widget: 'boolean' }
-      - { label: 'Min Unit', name: 'min', widget: 'select', options:['studio', 1,2,3,4,5] }
+      - {
+          label: 'Min Unit',
+          name: 'min',
+          widget: 'select',
+          options: ['One', 'Two', 'Three', 'Four'],
+        }
+      - {
+          label: 'Max Unit',
+          name: 'max',
+          widget: 'select',
+          options: ['One', 'Two', 'Three', 'Four'],
+        }
       - {
           label: 'Community Amenities',
           name: 'community_amenities',
