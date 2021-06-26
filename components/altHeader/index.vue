@@ -4,6 +4,10 @@
     class="flex flex-row items-center pl-16"
   >
     <h1 class="text-white text-4xl">{{ title }}</h1>
+    <div class="flex flex-row flex-grow justify-end pr-16">
+      <nuxt-link class="text-white" to="/">Home</nuxt-link>
+      <nuxt-link class="text-white pl-4" to="/contact">Contact</nuxt-link>
+    </div>
   </div>
 </template>
 
