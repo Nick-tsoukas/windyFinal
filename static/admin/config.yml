@@ -49,7 +49,7 @@ collections:
               'free coffee',
               'Dog Bath',
               'Gift Shop',
-              "Another Thing"
+              'Another Thing'
             ],
           default:
             [
@@ -131,6 +131,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'GA Code', name: 'gacode', widget: 'string' }
       - { label: 'Logo', name: 'logo', widget: 'image' }
       - {
           label: 'Meta Description',

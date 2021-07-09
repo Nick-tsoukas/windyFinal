@@ -16,8 +16,8 @@
       <!-- page content -->
       <Nuxt class="flex-grow z-40" />
       <!-- footer -->
-      <Footer />
-      <h1>Hello this is the settings</h1>
+      <!-- <Footer /> -->
+      <AltFooter />
     </div>
 
     <!-- scroll to top -->

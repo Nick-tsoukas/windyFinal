@@ -10,9 +10,10 @@
       xl:pl-32 xl:pt-32
     "
   >
-    <p class="text-white text-xl z-50 pb-6">Find your dream house</p>
+    <p class="text-white text-2xl z-50 pb-6">Find your dream house</p>
     <h1 class="text-5xl font-bold xl:text-6xl text-white z-50">
-      Find the place of your dreams
+      Find the place of your
+      <span class="text-blue-900 font-bold">dreams</span>
     </h1>
     <div class="gradient"></div>
   </div>
