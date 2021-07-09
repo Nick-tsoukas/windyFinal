@@ -24,13 +24,13 @@ collections:
           label: 'Min Unit',
           name: 'min',
           widget: 'select',
-          options: ['One', 'Two', 'Three', 'Four'],
+          options: ['Studio', One', 'Two', 'Three', 'Four'],
         }
       - {
           label: 'Max Unit',
           name: 'max',
           widget: 'select',
-          options: ['One', 'Two','Three', ],
+          options: ['Studio', One', 'Two','Three', ],
         }
       - {
           label: 'Community Amenities',
