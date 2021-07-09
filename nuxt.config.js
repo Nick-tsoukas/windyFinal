@@ -24,6 +24,7 @@ export default {
       Raleway: true,
       'Josefin+Sans': true,
       Lato: [100, 300],
+      Inter: true,
     },
   },
   modules: ['@nuxtjs/pwa', '@nuxt/content'],
@@ -32,6 +33,7 @@ export default {
       lang: 'en',
     },
   },
+
   content: {},
   build: {},
 }

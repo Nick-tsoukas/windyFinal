@@ -8,17 +8,17 @@
         px-6
         py-4
         border border-transparent
-        text-sm
         font-medium
         rounded-md
         shadow-sm
         text-white
-        bg-indigo-600
+        bg-custom-blue
         hover:bg-indigo-700
         focus:outline-none
         focus:ring-2
         focus:ring-offset-2
         focus:ring-indigo-500
+        text-2xl
       "
     >
       {{ title }}

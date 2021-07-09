@@ -14,7 +14,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        'hero-pattern': "url('/img/building_4.jpeg')",
+      }),
       colors: {
+        'custom-blue': '#5148e5',
         // https://www.tailwindshades.com/
         grape: colors.purple,
         primary: {

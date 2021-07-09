@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row overflow-y-scroll gap-1 pt-10 pb-10 bg-black">
+  <div class="flex flex-row overflow-y-scroll gap-1 pt-10 pb-10 bg-gray-200">
     <nuxt-img
       v-for="(image, index) in building.galleryImages"
       :key="index"
@@ -8,6 +8,7 @@
       height="300px"
       :alt="image.alt"
       format="webp"
+      class="hover:scale-110 transition-all"
     />
   </div>
 </template>

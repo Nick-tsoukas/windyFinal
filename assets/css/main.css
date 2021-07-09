@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 h1, h2, h3 {
-  font-family:'Raleway', sans-serif !important;
+  /* font-family:'Raleway', sans-serif !important; */
+  font-family: 'Inter', sans-serif !important
 }
 
 p {
@@ -25,10 +26,15 @@ button {
 }
 
 .rale {
-  font-family:'Raleway', sans-serif !important;
+  /* font-family:'Raleway', sans-serif !important; */
+  font-family: 'Inter', sans-serif !important;
 }
 .lato {
   font-family: 'Lato', sans-serif !important;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
 }
 
 @layer utilities {

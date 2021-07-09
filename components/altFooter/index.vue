@@ -10,19 +10,17 @@
         md:w-2/4
       "
     >
-      <nuxt-link class="text-2xl color_ font-semibold" to="/Home"
-        >Home</nuxt-link
-      >
-      <nuxt-link class="text-2xl color_ font-semibold" to="/Home"
+      <nuxt-link class="text-2xl color_ font-semibold" to="/">Home</nuxt-link>
+      <nuxt-link class="text-2xl color_ font-semibold" to="/about"
         >About</nuxt-link
       >
-      <nuxt-link class="text-2xl color_ font-semibold" to="/Home"
-        >Buildings</nuxt-link
+      <nuxt-link class="text-2xl color_ font-semibold" to="/featuredListings"
+        >Featured Listings</nuxt-link
       >
-      <nuxt-link class="text-2xl color_ font-semibold" to="/Home"
-        >Featured Apartments</nuxt-link
+      <nuxt-link class="text-2xl color_ font-semibold" to="/properties"
+        >All Properties</nuxt-link
       >
-      <nuxt-link class="text-2xl color_ font-semibold" to="/Home"
+      <nuxt-link class="text-2xl color_ font-semibold" to="/contact"
         >Contact</nuxt-link
       >
     </nav>
@@ -35,7 +33,7 @@
     </div>
     <div class="w-full mt-20">
       <p class="text-2xl text-center">
-        © 2020 Workflow, Inc. All rights reserved.
+        © 2021 Windcity, Inc. All rights reserved.
       </p>
     </div>
   </div>
@@ -47,6 +45,6 @@ export default {}
 
 <style scoped>
 .color_ {
-  color: #9ba3af;
+  color: #5148e5;
 }
 </style>

@@ -9,15 +9,25 @@
       sizes="xs:320px sm:640px md:768px lg:1024px xl:1680px"
       format="webp"
     />
-    <div class="w-screen z-50 lg:pl-0 pt-40 xl:w-2/3 xl:pl-44">
+    <div
+      class="
+        w-screen
+        md:bg-white md:bg-opacity-70
+        z-50
+        md:py-20 md:px-8
+        xl:w-2/3
+        relative
+        top-1/4
+      "
+    >
       <h1
         style="z-index: 99999999999999999"
         class="
           font-bold
           text-4xl text-white text-center
           sm:z-50 sm:text-center
-          md:text-6xl
-          lg:text-7xl lg:text-black
+          md:text-6xl md:text-center md:text-black
+          lg:text-7xl lg:text-center lg:text-black
         "
       >
         {{ building.title }}

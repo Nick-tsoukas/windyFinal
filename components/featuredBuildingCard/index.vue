@@ -23,12 +23,12 @@
         class="
           bg-transparent
           hover:bg-blue-500
-          text-blue-700
+          text-custom-blue
           font-semibold
           hover:text-white
           py-2
           px-4
-          border border-blue-500
+          border border-custom-blue
           hover:border-transparent
           rounded
         "

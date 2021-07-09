@@ -7,10 +7,34 @@
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
-    <SectionTitle
+    <!-- <SectionTitle
       class="mx-auto text-center xl:pl-36 xl:text-left pt-6"
       title="Featured Buildings"
-    />
+    /> -->
+    <!-- Add component that introduces the featured building page -->
+    <section class="flex flex-roww-full pl-20 py-24">
+      <div>
+        <h2 class="text-5xl font-extrabold pb-6">
+          Finding your new place has never been easier?
+        </h2>
+        <h2 class="text-4xl font-bold text-custom-blue">
+          Check our featured deals below
+        </h2>
+      </div>
+      <div
+        class="
+          w-1/2
+          mx-auto
+          h-full
+          flex flex-row
+          justify-center
+          items-center
+          text-center
+        "
+      >
+        <Button class="hidden md:block" title="contact us today" />
+      </div>
+    </section>
     <!-- In the featuredBuildingCard -->
     <BuildingsSlider>
       <div v-for="(building, i) in featBUildings_" :key="i">
