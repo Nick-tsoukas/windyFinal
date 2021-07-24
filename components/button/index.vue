@@ -21,7 +21,9 @@
         text-2xl
       "
     >
-      {{ title }}
+      <nuxt-link :to="`${linkto}`">
+        {{ title }}
+      </nuxt-link>
     </button>
   </div>
 </template>
@@ -32,6 +34,9 @@ export default {
     title: {
       type: String,
       default: 'Learn More',
+    },
+    linkto: {
+      type: String,
     },
   },
 }

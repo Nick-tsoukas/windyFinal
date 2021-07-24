@@ -3,7 +3,9 @@
     style="height: 100px; width: 100%; background: black; z-index: 999999999999"
     class="flex flex-row items-center pl-16"
   >
-    <h1 class="text-white text-4xl">{{ title }}</h1>
+    <nuxt-link to="/"
+      ><h1 class="text-white text-4xl">{{ title }}</h1></nuxt-link
+    >
     <div class="hidden justify-end pr-16 md:flex md:flex-row md:flex-grow">
       <nuxt-link class="text-white" to="/">Home</nuxt-link>
       <nuxt-link class="text-white pl-4" to="/about">About</nuxt-link>

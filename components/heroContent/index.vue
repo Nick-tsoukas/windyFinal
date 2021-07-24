@@ -15,7 +15,7 @@
     >
       Make yourself at home. Let us help find your dream apartment
     </h1>
-    <Button class="pl-20 pt-16" title="Contact us today" />
+    <Button linkto="/contact" class="pl-20 pt-16" title="Contact us today" />
   </div>
 </template>
 

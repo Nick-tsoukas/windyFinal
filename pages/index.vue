@@ -32,7 +32,11 @@
           text-center
         "
       >
-        <Button class="hidden md:block" title="contact us today" />
+        <Button
+          linkto="/contact"
+          class="hidden md:block"
+          title="contact us today"
+        />
       </div>
     </section>
     <!-- In the featuredBuildingCard -->
