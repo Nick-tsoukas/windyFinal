@@ -102,13 +102,20 @@ require('@tailwindcss/forms'), ] } ``` -->
           "
         >
           <div class="max-w-lg mx-auto lg:max-w-none">
-            <form action="#" method="POST" class="grid grid-cols-1 gap-y-6">
+            <form
+              name="contactus"
+              action="/thanks"
+              method="post"
+              netlify
+              netlify-honeypot="bot-field"
+              class="grid grid-cols-1 gap-y-6"
+            >
+              <input type="hidden" name="form-name" value="contactus" />
               <div>
                 <label for="full-name" class="sr-only">Full name</label>
                 <input
                   type="text"
-                  name="full-name"
-                  id="full-name"
+                  name="fullName"
                   autocomplete="name"
                   class="
                     block
@@ -127,7 +134,6 @@ require('@tailwindcss/forms'), ] } ``` -->
               <div>
                 <label for="email" class="sr-only">Email</label>
                 <input
-                  id="email"
                   name="email"
                   type="email"
                   autocomplete="email"
@@ -145,27 +151,7 @@ require('@tailwindcss/forms'), ] } ``` -->
                   placeholder="Email"
                 />
               </div>
-              <div>
-                <label for="phone" class="sr-only">Phone</label>
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  autocomplete="tel"
-                  class="
-                    block
-                    w-full
-                    shadow-sm
-                    py-3
-                    px-4
-                    placeholder-gray-500
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    border-gray-300
-                    rounded-md
-                  "
-                  placeholder="Phone"
-                />
-              </div>
+
               <div>
                 <label for="message" class="sr-only">Message</label>
                 <textarea
