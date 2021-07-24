@@ -1,5 +1,11 @@
 <template>
-  <div class="relative w-screen height_">
+  <div
+    data-aos="fade-right"
+    data-aos-duration="600"
+    data-aos-offset="300"
+    data-aos-once="true"
+    class="relative w-screen height_"
+  >
     <nuxt-img
       style="z-index: -1"
       class="height_ object-cover absolute right-0 top-0 w-screen xl:w-2/3"
@@ -56,7 +62,10 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
+
 export default {
+  mixins: [aosMixin],
   props: {
     building: {
       type: Object,

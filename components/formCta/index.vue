@@ -9,114 +9,107 @@
             <br />
             place
           </p>
-          <div class="flex flex-col pt-28">
-            <div class="w-full sm:w-3/4">
-              <label
-                for="name"
-                class="block text-sm font-medium text-black pb-2 pt-2"
-                >Full Names</label
+          <div>
+            <div class="w-full">
+              <form
+                name="contact"
+                method="POST"
+                data-netlify="true"
+                class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
               >
-              <div class="mt-1">
-                <input
-                  type="text"
-                  name="lastName"
-                  id="lastName"
-                  autocomplete="lastname"
-                  placeholder="First and last name"
-                  class="
-                    flex-1
-                    block
-                    w-full
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    min-w-0
-                    rounded-none rounded-r-md
-                    sm:text-sm
-                    border-gray-300
-                  "
-                />
-
-                <!-- <input
-                  id="name"
-                  type="text"
-                  name="lastName"
-                  class="
-                    text-2xls
-                    h-16
-                    shadow-sm
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    block
-                    w-full
-                    sm:text-sm
-                    border-gray-300
-                    rounded-md
-                  "
-                  placeholder="First and last name ..."
-                /> -->
-              </div>
-            </div>
-            <div class="w-full md:w-3/4">
-              <label
-                for="email"
-                class="block text-sm font-medium text-black pb-2 pt-2"
-                >Email</label
-              >
-              <div class="mt-1">
-                <input
-                  id="name"
-                  type="email"
-                  name="email"
-                  class="
-                    shadow-sm
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    block
-                    w-full
-                    sm:text-sm
-                    border-gray-300
-                    rounded-md
-                  "
-                  placeholder="Email Address"
-                />
-              </div>
-            </div>
-            <div class="w-full md:w-3/4">
-              <label
-                for="message"
-                class="block text-sm font-medium text-black pb-2 pt-2"
-                >Message</label
-              >
-              <div class="mt-1">
-                <textarea
-                  id="about"
-                  name="about"
-                  rows="3"
-                  placehoder="Type your message here"
-                  class="
-                    max-w-lg
-                    shadow-sm
-                    block
-                    w-full
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    sm:text-sm
-                    border border-gray-300
-                    rounded-md
-                  "
-                />
-
-                <!-- <textarea
-                  id="message"
-                  name="message"
-                  class="
-                    shadow-sm
-                    focus:ring-indigo-500 focus:border-indigo-500
-                    block
-                    w-full
-                    sm:text-sm
-                    border-gray-300
-                    rounded-md
-                  "
-                  placeholder="Type your message here"
-                /> -->
-              </div>
+                <div class="mb-4">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="username"
+                  >
+                    Fullname
+                  </label>
+                  <input
+                    class="
+                      shadow
+                      appearance-none
+                      border
+                      rounded
+                      w-full
+                      py-2
+                      px-3
+                      text-gray-700
+                      leading-tight
+                      focus:outline-none focus:shadow-outline
+                    "
+                    id="name"
+                    type="text"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="email"
+                  >
+                    Email
+                  </label>
+                  <input
+                    class="
+                      shadow
+                      appearance-none
+                      rounded
+                      w-full
+                      py-2
+                      px-3
+                      text-gray-700
+                      mb-3
+                      leading-tight
+                      focus:outline-none focus:shadow-outline
+                    "
+                    id="email"
+                    type="email"
+                    placeholder="your@email.com"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label
+                    class="block text-gray-700 text-sm font-bold mb-2"
+                    for="email"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    class="
+                      shadow
+                      appearance-none
+                      rounded
+                      w-full
+                      py-2
+                      px-3
+                      text-gray-700
+                      mb-3
+                      leading-tight
+                      focus:outline-none focus:shadow-outline
+                    "
+                    id="message"
+                    type="textarea"
+                    placeholder="We can't wait to hear from you"
+                  />
+                </div>
+                <div class="flex items-center justify-between">
+                  <button
+                    class="
+                      bg-blue-500
+                      hover:bg-blue-700
+                      text-white
+                      font-bold
+                      py-2
+                      px-4
+                      rounded
+                      focus:outline-none focus:shadow-outline
+                    "
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -143,4 +136,15 @@ export default {}
 .let {
   background: white;
 }
+
+/* class="
+                    flex-1
+                    block
+                    w-full
+                    focus:ring-indigo-500 focus:border-indigo-500
+                    min-w-0
+                    rounded-none rounded-r-md
+                    sm:text-sm
+                    border-gray-300
+                  " */
 </style>

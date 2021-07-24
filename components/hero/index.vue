@@ -1,6 +1,12 @@
 <template>
   <!-- hero containert  -->
-  <div class="h-screen flex flex-col bg-primary text-white -mt-10">
+  <div
+    data-aos="fade-right"
+    data-aos-duration="1000"
+    data-aos-offset="300"
+    data-aos-once="true"
+    class="h-screen flex flex-col bg-primary text-white -mt-10"
+  >
     <!-- hero wrapper  -->
     <div class="relative">
       <div class="block absolute w-full">
@@ -49,7 +55,10 @@
 </template>
 
 <script>
+import aosMixin from '~/mixins/aos'
+
 export default {
+  mixins: [aosMixin],
   props: {
     heroImg: {
       type: String,
