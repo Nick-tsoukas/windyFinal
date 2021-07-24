@@ -22,7 +22,7 @@
                 <div class="mb-4">
                   <label
                     class="block text-gray-700 text-sm font-bold mb-2"
-                    for="username"
+                    for="fullName"
                   >
                     Fullname
                   </label>
@@ -40,7 +40,7 @@
                       focus:outline-none focus:shadow-outline
                     "
                     type="text"
-                    name="name"
+                    name="fullName"
                     required
                   />
                 </div>

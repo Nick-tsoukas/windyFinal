@@ -27,12 +27,12 @@ export default {
       Inter: true,
     },
   },
-  modules: ['@nuxt/content'],
-  // pwa: {
-  //   manifest: {
-  //     lang: 'en',
-  //   },
-  // },
+  modules: ['@nuxtjs/pwa', '@nuxt/content'],
+  pwa: {
+    manifest: {
+      lang: 'en',
+    },
+  },
 
   content: {},
   build: {},
