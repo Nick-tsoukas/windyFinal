@@ -12,9 +12,11 @@
           <div>
             <div class="w-full">
               <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
+                name="contactus"
+                action="/thanks"
+                method="post"
+                netlify
+                netlify-honeypot="bot-field"
                 class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
               >
                 <div class="mb-4">
@@ -37,9 +39,9 @@
                       leading-tight
                       focus:outline-none focus:shadow-outline
                     "
-                    id="name"
                     type="text"
-                    placeholder="Your name"
+                    name="name"
+                    required
                   />
                 </div>
                 <div class="mb-6">
@@ -62,7 +64,7 @@
                       leading-tight
                       focus:outline-none focus:shadow-outline
                     "
-                    id="email"
+                    name="email"
                     type="email"
                     placeholder="your@email.com"
                   />
@@ -87,8 +89,8 @@
                       leading-tight
                       focus:outline-none focus:shadow-outline
                     "
-                    id="message"
-                    type="textarea"
+                    name="message"
+                    required
                     placeholder="We can't wait to hear from you"
                   />
                 </div>
