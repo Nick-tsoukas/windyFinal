@@ -7,7 +7,6 @@
       netlify
       netlify-honeypot="bot-field"
     >
-      // Hidden input to check for bots
       <input type="hidden" name="form-name" value="contactus" />
       <div>
         <label for="name">Name:</label>
