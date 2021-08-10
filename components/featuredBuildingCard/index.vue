@@ -10,6 +10,7 @@
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
         <h2 class="text-2xl flex-grow">{{ building.title }}</h2>
+        <!-- here you need to put the rand  -->
         <p class="flex-grow text-1xl">$1200 - $1500</p>
       </div>
       <h2 class="flex-grow text-1xl xl:text-2xl xl:pb-10">West Loop</h2>
