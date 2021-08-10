@@ -32,7 +32,7 @@ collections:
           label: 'Max Unit',
           name: 'max',
           widget: 'select',
-          options: ['Studio', One', 'Two','Three', ],
+          options: ['Studio', One', 'Two','Three','Four', 'Five' ],
         }
       - {
           label: 'Community Amenities',
