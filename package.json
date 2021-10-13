@@ -30,7 +30,7 @@
     "@vue-hero-icons/outline": "^1.7.2",
     "aos": "^2.3.4",
     "concurrently": "^6.2.0",
-    "core-js": "^3.9.1",
+    "core-js": "^3.18.3",
     "nuxt": "^2.15.3",
     "vue-easy-lightbox": "^0.16.1"
   },
