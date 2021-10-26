@@ -10,7 +10,7 @@ address: " 220 East Illinois"
 city: Chicago
 state: IL
 zipcode: "60611"
-pet: true
+pet: false
 notes:
   - located steps from Michigan Ave
   - booming Streeterville neighborhood
