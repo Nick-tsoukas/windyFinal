@@ -1,5 +1,5 @@
 ---
-title: Echelon Chicago
+title: Old Town.
 neighborhood: Streeterville
 bulidingType: Highrise
 minSquare: "571"
