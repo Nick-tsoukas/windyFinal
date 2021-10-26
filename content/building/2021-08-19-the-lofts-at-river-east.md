@@ -1,5 +1,5 @@
 ---
-title: The Lofts at River East
+title: Old Town
 neighborhood: Streeterville
 bulidingType: Hirise
 minSquare: "400"
@@ -56,7 +56,7 @@ description: >+
   private screening room and having cocktails with friends while looking out
   onto the River walk from the waterfront lounge.
 
-featured: true
+featured: false
 alt: image of a building
 featImage: /img/_dsc8290.jpg
 galleryImages:
