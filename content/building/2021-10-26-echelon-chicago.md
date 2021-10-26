@@ -1,5 +1,5 @@
 ---
-title: Old Town.
+title: Bucktown Apartments
 neighborhood: Streeterville
 bulidingType: Highrise
 minSquare: "571"
