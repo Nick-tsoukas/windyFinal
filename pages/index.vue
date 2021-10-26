@@ -17,9 +17,6 @@
         <h2 class="text-5xl font-extrabold pb-6">
           Finding your new place has never been easier?
         </h2>
-        <h2 class="text-4xl font-bold text-custom-blue">
-          Check our featured deals below
-        </h2>
       </div>
       <div
         class="

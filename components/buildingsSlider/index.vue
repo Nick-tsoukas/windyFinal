@@ -1,15 +1,25 @@
 <template>
-  <div
-    class="
-      flex
-      hideScroll
-      flex-row
-      overflow-x-scroll overflow-y-hidden
-      min-w-full
-      container
-    "
-  >
-    <slot></slot>
+  <div>
+    <div style="background-color: #f0efef" class="w-full h-12">
+      <h1
+        style="color: #5148e4; font-weight: 700"
+        class="text-center text-4xl pt-6"
+      >
+        Featured Deals
+      </h1>
+    </div>
+    <div
+      class="
+        flex
+        hideScroll
+        flex-row
+        overflow-x-scroll overflow-y-hidden
+        min-w-full
+        container
+      "
+    >
+      <slot></slot>
+    </div>
   </div>
 </template>
 

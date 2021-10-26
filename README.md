@@ -450,3 +450,17 @@ Racquetball Court
 Recycling
 Sundeck
 bikeroom
+
+Property Details
+Price Range: $1,765 - $7,030
+Address: 1000 S Clark
+City: Chicago
+Neighborhood: South Loop
+ZIP: 60605
+Building Type: Highrise
+Square Feet: 537-2588
+Bedrooms: 0-3
+Bathrooms: 1-3.5
+Status:
+Additional Features:
+bbq, Doorman, full service, gas cooking, hardwood floors, hottub, indoor pool, outdoor space, pet friendly, professional fitness center, quartz counter tops, running track

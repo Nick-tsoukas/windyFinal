@@ -2,7 +2,7 @@
   <div class="flex h-full flex-col mx-auto sm:flex-col lg:flex-row">
     <div class="h-auto w-screen p-8 lg:w-3/5 lg:lg:pl-36 lg:pr-36">
       <h1 class="text-4xl mb-10 text-center md:text-left">
-        At the Bolden Apartments
+        At the {{ building.title }}
       </h1>
       <p class="lato text-2xl pb-6">
         {{ building.description }}
