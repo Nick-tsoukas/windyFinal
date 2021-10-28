@@ -49,27 +49,24 @@ collections:
           options:
             [
               'Pool',
-              'Hot tube',
-              'Community game room',
+              'Hot tub',
+              'Community Room',
               'Pool table',
               'Grills',
               'Outdoor area',
-              'Tv Screens',
               'free coffee',
               'Dog Bath',
               'Gift Shop',
-              'Another Thing'
             ],
           default:
             [
               'Pool',
-              'Hot tube',
-              'Community game room',
+              'Hot tub',
+              'Community Room',
               'Pool table',
               'Grills',
               'Outdoor area',
-              'Tv Screens',
-              'free coffee',
+              'Free Coffee',
               'Dog Bath',
               'Gift Shop',
             ],

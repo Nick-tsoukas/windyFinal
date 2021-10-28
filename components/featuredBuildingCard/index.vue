@@ -65,7 +65,7 @@ export default {
 .box {
   width: 550px;
   height: 400px;
-  margin: 4rem;
+  margin: 4.5rem;
 }
 
 .card_info {
