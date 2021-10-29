@@ -105,11 +105,11 @@
     <div
       v-if="filterOpen"
       class="
-        popUpSmall
+        popUp
         bg-white
         rounded-lg
         top-10
-        md:w-1/3 md:top-1/4 md:h-1/2 md:popUp
+        md:w-1/3 md:top-1/4 md:h-1/2
         lg:popUp
         xl:popUp
       "
@@ -341,17 +341,20 @@ export default {
 
 <style scoped>
 .popUp {
-  height: 30vh;
-  width: 33vw;
-  z-index: 99999999999;
-  position: fixed;
-  left: 33vw;
-}
-.popUpSmall {
   height: 80vh;
   width: 90vw;
   z-index: 99999999999;
   position: fixed;
   left: 5vw;
+}
+
+@media (min-width: 768px) {
+  .popUp {
+    height: 50vh;
+    width: 40vw;
+    z-index: 99999999999;
+    position: fixed;
+    left: 30vw;
+  }
 }
 </style>
