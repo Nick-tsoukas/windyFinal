@@ -30,7 +30,7 @@ require('@tailwindcss/forms'), ] } ``` -->
             Send Us A Message
           </p>
           <p class="rale max-w-xl mt-5 mx-auto text-xl text-gray-500">
-            We can help you find the right place for you. Drop a line and we'll
+            We can help you find the right place for you. Message us and we'll
             get back to you
           </p>
         </div>
