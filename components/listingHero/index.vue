@@ -30,7 +30,7 @@
             >
             {{ ' ' }}
             <span class="text-4xl block text-indigo-600 xl:inline"
-              >Let us help you find your place</span
+              >Let us help you find your next apartment</span
             >
           </h1>
           <p

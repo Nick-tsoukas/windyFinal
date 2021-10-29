@@ -12,7 +12,7 @@
           font-extrabold
           text-center text-3xl
           flex-grow
-          lg:text-5xl
+          lg:text-5xl lg:text-left
           pb-6
         "
       >
@@ -50,10 +50,7 @@
         <FeaturedBuildingCard :building="building" />
       </div>
     </BuildingsSlider>
-    <!-- work on Cta and figure -->
     <Cta />
-    <!-- SeachBuilding -->
-    <!-- I think i'm going to put a button here  -->
     <div
       style="background-color: #f0efef"
       class="
@@ -107,19 +104,14 @@
     ></div>
     <div
       v-if="filterOpen"
-      style="
-        z-index: 99999999999;
-        margin-right: auto;
-        position: fixed;
-        left: 4%;
-      "
       class="
+        popUpSmall
         bg-white
         rounded-lg
-        w-11/12
-        h-3/5
         top-10
-        md:w-1/3 md:top-1/4 md:h-1/2
+        md:w-1/3 md:top-1/4 md:h-1/2 md:popUp
+        lg:popUp
+        xl:popUp
       "
     >
       <section class="flex justify-end pb-10 pr-6 pt-6">
@@ -346,3 +338,20 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.popUp {
+  height: 30vh;
+  width: 33vw;
+  z-index: 99999999999;
+  position: fixed;
+  left: 33vw;
+}
+.popUpSmall {
+  height: 80vh;
+  width: 90vw;
+  z-index: 99999999999;
+  position: fixed;
+  left: 5vw;
+}
+</style>

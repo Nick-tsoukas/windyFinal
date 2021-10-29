@@ -6,11 +6,6 @@
         <FeaturedBuildingCard :building="building" />
       </div>
     </BuildingsSlider>
-    <BuildingsSlider>
-      <div v-for="(building, i) in buildings" :key="i">
-        <FeaturedBuildingCard :building="building" />
-      </div>
-    </BuildingsSlider>
     <div style="height: 500px" class="relative bg-indigo-800">
       <div class="absolute inset-0">
         <img
@@ -51,7 +46,9 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const buildings = await $content('building').fetch()
+    const buildings = await $content('building')
+      .where({ featured: true })
+      .fetch()
 
     return {
       buildings,

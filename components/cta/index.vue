@@ -10,10 +10,33 @@
       xl:pl-32 xl:pt-32
     "
   >
-    <p class="text-white text-2xl z-50 pb-6">Find your dream house</p>
-    <h1 class="text-5xl font-bold xl:text-6xl text-white z-50">
-      Find the place of your Dreams
+    <h1 class="text-5xl font-bold xl:text-6xl text-white z-50 mb-10">
+      Find the right luxury apartment for You!
     </h1>
+    <!-- <p class="text-white text-2xl z-50 pb-6">Get in touch</p> -->
+    <button
+      type="button"
+      class="
+        inline-flex
+        items-center
+        px-6
+        py-4
+        border border-transparent
+        font-medium
+        rounded-md
+        shadow-sm
+        text-white
+        bg-custom-blue
+        hover:bg-indigo-700
+        focus:outline-none
+        focus:ring-2
+        focus:ring-offset-2
+        focus:ring-indigo-500
+        text-2xl
+      "
+    >
+      <nuxt-link to="/contact"> Get in touch </nuxt-link>
+    </button>
     <div class="gradient"></div>
   </div>
 </template>
