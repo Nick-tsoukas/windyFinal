@@ -101,24 +101,15 @@
           <div>
             <input
               v-model="filteredSelections"
-              id="petFriendly"
-              type="checkbox"
-              value="petFriendly"
-            />
-            <label for="petFriendly">Pet Friendly</label>
-          </div>
-          <div>
-            <input
-              v-model="filteredSelections"
               id="pool"
               type="checkbox"
-              value="pool"
+              value="Pool"
             />
             <label for="hotTub">Pool</label>
           </div>
           <div>
             <input
-              value="hotTub"
+              value="Hot tub"
               id="hotTub"
               v-model="filteredSelections"
               type="checkbox"
@@ -130,7 +121,7 @@
               v-model="filteredSelections"
               id="communityRoom"
               type="checkbox"
-              value="communityRoom"
+              value="Community Room"
             />
             <label for="communityRoom">Community Room</label>
           </div>
@@ -139,7 +130,7 @@
               v-model="filteredSelections"
               id="poolTable"
               type="checkbox"
-              value="poolTable"
+              value="Pool table"
             />
             <label for="poolTable">Pool Table</label>
           </div>
@@ -148,7 +139,7 @@
               v-model="filteredSelections"
               id="grills"
               type="checkbox"
-              value="grills"
+              value="Grills"
             />
             <label for="grills">grills</label>
           </div>
@@ -157,7 +148,7 @@
               id="outdoorArea"
               v-model="filteredSelections"
               type="checkbox"
-              value="outdoorArea"
+              value="Outdoor area"
             />
             <label for="outdoorArea">Outdoor Area</label>
           </div>
@@ -166,7 +157,7 @@
               v-model="filteredSelections"
               id="freeCoffee"
               type="checkbox"
-              value="freeCoffee"
+              value="free coffee"
             />
             <label for="freeCoffee">Free Coffee</label>
           </div>
@@ -175,7 +166,7 @@
               v-model="filteredSelections"
               id="dogBath"
               type="checkbox"
-              value="dogBath"
+              value="Dog Bath"
             />
             <label for="dogBath">Dog Bath</label>
           </div>
@@ -184,7 +175,7 @@
               v-model="filteredSelections"
               id="giftShop"
               type="checkbox"
-              value="giftShop"
+              value="Gift Shop"
             />
             <label for="giftShop">Gift Shop</label>
           </div>
@@ -245,9 +236,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const buildings_ = await $content('building')
-      .where({ featured: false })
-      .fetch()
+    const buildings_ = await $content('building').where().fetch()
     const featBUildings_ = await $content('building')
       .where({ featured: true })
       .fetch()
@@ -294,26 +283,31 @@ export default {
       matches.forEach((some) => {
         some.checked = false
       })
-      this.fb = false
     },
     closeFilter() {
       this.filterOpen = false
     },
-    filteredBuildingUser({ $content }) {
-      const filteredSelectionObject = this.filteredSelections.map(
-        (selection) => {
-          return { [selection]: true }
-        }
-      )
-      const final = {}
-      filteredSelectionObject.forEach((filterProp) => {
-        final[Object.keys(filterProp)[0]] = true
-      })
-      this.log('This is all the buildling ', this.buildings_)
-      this.closeFilter()
-    },
     toggleFilter() {
       this.filterOpen = !this.filterOpen
+    },
+    filteredBuildingUser() {
+      const final = []
+      let check = []
+      this.buildings_.forEach((building) => {
+        building.community_amenities.forEach((amen) => {
+          this.filteredSelections.forEach((s) => {
+            if (s === amen) {
+              check.push(s)
+            }
+          })
+        })
+        if (check.length === this.filteredSelections.length) {
+          final.push(building)
+        }
+        check = []
+      })
+      this.closeFilter()
+      return (this.fb = final)
     },
   },
 }

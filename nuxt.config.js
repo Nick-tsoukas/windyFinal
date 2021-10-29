@@ -34,6 +34,8 @@ export default {
     },
   },
 
-  content: {},
+  content: {
+    nestedProperties: ['categories.slug'],
+  },
   build: {},
 }

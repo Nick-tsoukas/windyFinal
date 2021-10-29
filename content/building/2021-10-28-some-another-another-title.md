@@ -1,9 +1,9 @@
 ---
-title: Old Town
-neighborhood: Streeterville
-bulidingType: Hirise
-minSquare: "400"
-maxSquare: "2000"
+title: fdsafdsafdsaf
+neighborhood: Streetervifdsafasdfasdflle
+bulidingType: Hirisefdsfasdf
+minSquare: "4002"
+maxSquare: "20002"
 minPrice: 1800
 maxPrice: 4499
 address: 445 E. Illinois Chicago, IL 60611
@@ -12,7 +12,7 @@ state: IL
 zipcode: "60611"
 pet: true
 notes:
-  - Hardwood flooring throughout with carpeted bedrooms
+  - Hardwood flooring throughfdsfout with carpeted bedrooms
   - In-unit laundry room with full-size side-by-side washer and dryer
   - Granite counter tops
   - Balconies in select units with Nana Wall folding glass wall systems
@@ -31,7 +31,7 @@ home_amenities:
   - Washer
 description: >+
   Located in Streeterville within walking distance to Navy Pier and the lake and
-  river, with a neighborhood with a history as rich as its shopping areas.
+  river, with a neighborhood with a history as rich as its fdsfds areas.
   Overlooking the Chicago River, this beautiful property offers some of the
   largest apartments in the city. Equipped with custom kitchens, in-unit laundry
   rooms, exposed brick and over 100 unique layouts, we are sure we can find a
