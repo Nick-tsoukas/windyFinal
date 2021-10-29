@@ -20,6 +20,14 @@ min: Studio
 max: Three
 community_amenities:
   - Pool
+  - Community Room
+  - Pool table
+  - Grills
+  - Hot tub
+  - Outdoor area
+  - free coffee
+  - Dog Bath
+  - Gift Shop
 home_amenities:
   - Washer
 description: "Brand new, from famed architect and developer David Hovey, comes

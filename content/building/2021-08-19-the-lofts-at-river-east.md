@@ -27,6 +27,8 @@ min: Studio
 max: Three
 community_amenities:
   - Pool
+  - Hot tub
+  - Gift Shop
 home_amenities:
   - Washer
 description: >+

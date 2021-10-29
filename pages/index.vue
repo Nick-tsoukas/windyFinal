@@ -5,12 +5,19 @@
       <HeroContent />
       <!-- work on heroContent and then build props  -->
     </Hero>
-    <section class="flex flex-roww-full pl-20 py-24">
-      <div>
-        <h2 class="text-5xl font-extrabold pb-6">
-          Finding your new place has never been easier?
-        </h2>
-      </div>
+    <section class="flex flex-col md:flex-row w-full lg:pl-20 py-24">
+      <h2
+        class="
+          w-full
+          font-extrabold
+          text-center text-3xl
+          flex-grow
+          lg:text-5xl
+          pb-6
+        "
+      >
+        Finding your new place has never been easier?
+      </h2>
       <div
         class="
           w-1/2
@@ -47,9 +54,28 @@
     <Cta />
     <!-- SeachBuilding -->
     <!-- I think i'm going to put a button here  -->
-    <div style="background-color: #f0efef" class="w-full h-28 p-20 flex">
+    <div
+      style="background-color: #f0efef"
+      class="
+        w-full
+        h-auto
+        flex flex-col
+        text-center
+        pt-10
+        md:text-left md:flex-row md:p-20
+      "
+    >
       <div class="flex-grow">
-        <h2 class="text-custom-blue text-5xl font-extrabold">All Listings</h2>
+        <h2
+          class="
+            text-custom-blue text-4xl
+            pb-6
+            lg:p-0 lg:text-5xl
+            font-extrabold
+          "
+        >
+          All Listings
+        </h2>
       </div>
       <FilterFunction @toggleFilter="toggleFilter" />
     </div>
@@ -59,7 +85,6 @@
       </div>
     </BuildingsSlider>
     <BuildingsSlider v-else>
-      <h1>Something happened {{ fb }}</h1>
       <div v-for="(building, i) in fb" :key="i">
         <FeaturedBuildingCard :building="building" />
       </div>
@@ -84,20 +109,25 @@
       v-if="filterOpen"
       style="
         z-index: 99999999999;
-        margin-left: 33.33333333%;
         margin-right: auto;
         position: fixed;
-        top: 25%;
-        left: 0;
+        left: 4%;
       "
-      class="w-1/3 h-1/2 bg-white"
+      class="
+        bg-white
+        rounded-lg
+        w-11/12
+        h-3/5
+        top-10
+        md:w-1/3 md:top-1/4 md:h-1/2
+      "
     >
-      <section class="flex justify-end pr-6 pt-6">
+      <section class="flex justify-end pb-10 pr-6 pt-6">
         <h1 class="absolute left-4 top-4">Filter Parameters</h1>
         <img @click="closeFilter" class="w-9 h-9" src="/close.svg" />
       </section>
       <section class="px-6">
-        <div class="grid grid-cols-2 items-center">
+        <div class="grid grid-cols-2 items-center pb-10">
           <div>
             <input
               v-model="filteredSelections"
@@ -283,6 +313,10 @@ export default {
       matches.forEach((some) => {
         some.checked = false
       })
+      // v model
+      this.filteredSelections = []
+      // set the fb to false to show all the other listings
+      this.fb = false
     },
     closeFilter() {
       this.filterOpen = false
