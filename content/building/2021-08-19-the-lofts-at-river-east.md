@@ -1,5 +1,5 @@
 ---
-title: Old Town
+title: The Lofts at River East
 neighborhood: Streeterville
 bulidingType: Hirise
 minSquare: "400"

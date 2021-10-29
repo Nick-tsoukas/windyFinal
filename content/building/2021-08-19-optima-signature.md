@@ -39,7 +39,7 @@ description: "Brand new, from famed architect and developer David Hovey, comes
   Signature its stunning, spacious amenities featuring two swimming pools, three
   hot tubs, a full-size basketball court, golf simulator, putting green, bocce,
   and squash courts as well as an enormous 7,000 Square Foot
-  professional-quality health club fitness center. Â "
+  professional-quality health club fitness center. "
 featured: true
 alt: image of a building
 featImage: /img/_dsc8290.jpg

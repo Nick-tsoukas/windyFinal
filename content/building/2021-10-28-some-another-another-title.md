@@ -1,9 +1,9 @@
 ---
-title: fdsafdsafdsaf
-neighborhood: Streetervifdsafasdfasdflle
-bulidingType: Hirisefdsfasdf
-minSquare: "4002"
-maxSquare: "20002"
+title: " Wolf Point"
+neighborhood: River North
+bulidingType: Highrise
+minSquare: "500"
+maxSquare: "1800"
 minPrice: 1800
 maxPrice: 4499
 address: 445 E. Illinois Chicago, IL 60611
@@ -30,16 +30,11 @@ community_amenities:
 home_amenities:
   - Washer
 description: >+
-  Located in Streeterville within walking distance to Navy Pier and the lake and
-  river, with a neighborhood with a history as rich as its fdsfds areas.
-  Overlooking the Chicago River, this beautiful property offers some of the
-  largest apartments in the city. Equipped with custom kitchens, in-unit laundry
-  rooms, exposed brick and over 100 unique layouts, we are sure we can find a
-  layout that can suite your needs. Residents will also enjoy laying out on the
-  10,000 square foot rooftop SkyDeck, working out in our state-of-the-art
-  athletic room, playing pool in the gaming room, watching a movie in the
-  private screening room and having cocktails with friends while looking out
-  onto the River walk from the waterfront lounge.
+  Built it 2016 Wolf Point West Apartments stand 46 stories high and features
+  509 unique luxury apartments ranging from studios to large three-bedroom
+  penthouses. Â It is built all the bank of the Chicago River, in the centrally
+  located River North neighborhood, close to shops, transit, bars, and
+  restaurants.
 
 featured: false
 alt: image of a building
