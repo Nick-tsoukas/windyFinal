@@ -110,10 +110,18 @@ require('@tailwindcss/forms'), ] } ``` -->
               netlify-honeypot="bot-field"
               class="grid grid-cols-1 gap-y-6"
             >
-              <input type="hidden" name="form-name" value="contactus" />
+              <label for="contactus">
+                <input
+                  id="contactus"
+                  type="hidden"
+                  name="form-name"
+                  value="contactus"
+                />
+              </label>
               <div>
                 <label for="full-name" class="sr-only">Full name</label>
                 <input
+                  id="full-name"
                   type="text"
                   name="fullName"
                   autocomplete="name"
@@ -134,6 +142,7 @@ require('@tailwindcss/forms'), ] } ``` -->
               <div>
                 <label for="email" class="sr-only">Email</label>
                 <input
+                  id="email"
                   name="email"
                   type="email"
                   autocomplete="email"

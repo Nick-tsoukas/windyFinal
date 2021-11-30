@@ -1,9 +1,14 @@
 <template>
-  <div class="box relative">
+  <div
+    class="box relative"
+    data-aos="fade-right"
+    data-aos-duration="500"
+    data-aos-once="true"
+  >
     <img class="object-cover lg:max-h-96" :src="building.image" />
     <div class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
-        <h2 class="text-2xl flex-grow">Kenmore Building</h2>
+        <h2 class="text-2xl flex-grow">Kenmore</h2>
         <p class="flex-grow text-1xl">$1200 - $1500</p>
       </div>
       <h2 class="flex-grow text-1xl xl:text-2xl xl:pb-10">West Loop</h2>

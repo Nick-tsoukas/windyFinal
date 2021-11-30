@@ -1,6 +1,10 @@
 <template>
   <div>
-    <ListingHero />
+    <ListingHero
+      data-aos="fade-left"
+      data-aos-duration="500"
+      data-aos-once="true"
+    />
     <BuildingsSlider>
       <div v-for="(building, i) in buildings" :key="i">
         <FeaturedBuildingCard :building="building" />

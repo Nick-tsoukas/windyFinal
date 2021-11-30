@@ -1,7 +1,12 @@
 <template>
   <div class="w-full let flex flex-row height_900 justify-center">
     <div class="flex justify-center w-screen h-full md:w-2/3 lg:w-1/2">
-      <div class="pl-8 pr-8 pt-28 sm:pl-28">
+      <div
+        class="pl-8 pr-8 pt-28 sm:pl-28"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
         <h1 class="text-black text-4xl sm:text-6xl pb-6">Get in touch</h1>
         <div>
           <p class="text-black">
@@ -26,24 +31,26 @@
                     for="fullName"
                   >
                     Fullname
+
+                    <input
+                      id="fullName"
+                      class="
+                        shadow
+                        appearance-none
+                        border
+                        rounded
+                        w-full
+                        py-2
+                        px-3
+                        text-gray-700
+                        leading-tight
+                        focus:outline-none focus:shadow-outline
+                      "
+                      type="text"
+                      name="fullName"
+                      required
+                    />
                   </label>
-                  <input
-                    class="
-                      shadow
-                      appearance-none
-                      border
-                      rounded
-                      w-full
-                      py-2
-                      px-3
-                      text-gray-700
-                      leading-tight
-                      focus:outline-none focus:shadow-outline
-                    "
-                    type="text"
-                    name="fullName"
-                    required
-                  />
                 </div>
                 <div class="mb-6">
                   <label
@@ -51,49 +58,53 @@
                     for="email"
                   >
                     Email
+
+                    <input
+                      id="email"
+                      class="
+                        shadow
+                        appearance-none
+                        rounded
+                        w-full
+                        py-2
+                        px-3
+                        text-gray-700
+                        mb-3
+                        leading-tight
+                        focus:outline-none focus:shadow-outline
+                      "
+                      name="email"
+                      type="email"
+                      placeholder="your@email.com"
+                    />
                   </label>
-                  <input
-                    class="
-                      shadow
-                      appearance-none
-                      rounded
-                      w-full
-                      py-2
-                      px-3
-                      text-gray-700
-                      mb-3
-                      leading-tight
-                      focus:outline-none focus:shadow-outline
-                    "
-                    name="email"
-                    type="email"
-                    placeholder="your@email.com"
-                  />
                 </div>
                 <div class="mb-6">
                   <label
                     class="block text-gray-700 text-sm font-bold mb-2"
-                    for="email"
+                    for="message"
                   >
                     Message
+
+                    <textarea
+                      id="message"
+                      class="
+                        shadow
+                        appearance-none
+                        rounded
+                        w-full
+                        py-2
+                        px-3
+                        text-gray-700
+                        mb-3
+                        leading-tight
+                        focus:outline-none focus:shadow-outline
+                      "
+                      name="message"
+                      required
+                      placeholder="We can't wait to hear from you"
+                    />
                   </label>
-                  <textarea
-                    class="
-                      shadow
-                      appearance-none
-                      rounded
-                      w-full
-                      py-2
-                      px-3
-                      text-gray-700
-                      mb-3
-                      leading-tight
-                      focus:outline-none focus:shadow-outline
-                    "
-                    name="message"
-                    required
-                    placeholder="We can't wait to hear from you"
-                  />
                 </div>
                 <div class="flex items-center justify-between">
                   <button
@@ -119,6 +130,9 @@
       </div>
     </div>
     <nuxt-img
+      data-aos="fade-left"
+      data-aos-duration="500"
+      data-aos-once="true"
       sizes="md:290px lg:840px xl:50vw"
       src="img/building_4.jpeg"
       class="object-cover hidden w-full h-full image md:block md:w-1/2 lg:w-1/2"

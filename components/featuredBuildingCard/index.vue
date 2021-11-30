@@ -1,5 +1,10 @@
 <template>
-  <div class="box relative">
+  <div
+    class="box relative"
+    data-aos="fade-right"
+    data-aos-duration="500"
+    data-aos-once="true"
+  >
     <nuxt-img
       class="object-cover lg:max-h-96"
       sizes="md:350px lg:550px"
@@ -7,7 +12,7 @@
       :alt="building.alt"
       format="webp"
     />
-    <div class="card_info shadow-md p-6 xl:p-14">
+    <div style="background: white" class="card_info shadow-md p-6 xl:p-14">
       <div class="flex flex-row items-center pb-4">
         <h2 class="text-2xl flex-grow">{{ building.title }}</h2>
         <p class="flex-grow text-1xl">

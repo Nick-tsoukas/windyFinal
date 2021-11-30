@@ -1,6 +1,11 @@
 <template>
   <div>
-    <section class="back_color flex flex-col md:flex-row w-full">
+    <section
+      class="back_color flex flex-col md:flex-row w-full"
+      data-aos="fade-left"
+      data-aos-duration="800"
+      data-aos-once="true"
+    >
       <div class="lg:pl-36 w-full lg:w-1/3">
         <div
           class="

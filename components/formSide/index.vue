@@ -20,68 +20,74 @@
           for="fullName"
         >
           Fullname
+
+          <input
+            id="fullName"
+            class="
+              shadow
+              appearance-none
+              border
+              rounded
+              w-full
+              py-2
+              px-3
+              text-gray-700
+              leading-tight
+              focus:outline-none focus:shadow-outline
+            "
+            type="text"
+            name="fullName"
+            required
+          />
         </label>
-        <input
-          class="
-            shadow
-            appearance-none
-            border
-            rounded
-            w-full
-            py-2
-            px-3
-            text-gray-700
-            leading-tight
-            focus:outline-none focus:shadow-outline
-          "
-          type="text"
-          name="fullName"
-          required
-        />
       </div>
       <div class="mb-6">
         <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
           Email
+
+          <input
+            id="email"
+            class="
+              shadow
+              appearance-none
+              rounded
+              w-full
+              py-2
+              px-3
+              text-gray-700
+              mb-3
+              leading-tight
+              focus:outline-none focus:shadow-outline
+            "
+            name="email"
+            type="email"
+            placeholder="your@email.com"
+          />
         </label>
-        <input
-          class="
-            shadow
-            appearance-none
-            rounded
-            w-full
-            py-2
-            px-3
-            text-gray-700
-            mb-3
-            leading-tight
-            focus:outline-none focus:shadow-outline
-          "
-          name="email"
-          type="email"
-          placeholder="your@email.com"
-        />
       </div>
       <div class="mb-6">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
           Message
+
+          <textarea
+            id="message"
+            class="
+              shadow
+              appearance-none
+              rounded
+              w-full
+              py-2
+              px-3
+              text-gray-700
+              mb-3
+              leading-tight
+              focus:outline-none focus:shadow-outline
+            "
+            name="message"
+            required
+            placeholder="We can't wait to hear from you"
+          />
         </label>
-        <textarea
-          class="
-            shadow
-            appearance-none
-            rounded
-            w-full
-            py-2
-            px-3
-            text-gray-700
-            mb-3
-            leading-tight
-            focus:outline-none focus:shadow-outline
-          "
-          name="message"
-          required
-          placeholder="We can't wait to hear from you"
-        />
       </div>
       <div class="flex items-center justify-between">
         <button

@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <h1 class="text-4xl">Thank you very much</h1>
+  <div class="w-screen margin-auto">
+    <section class="w-full text-center py-10 md:w-1/2 md:mx-auto mdd:text-left">
+      <h1 class="text-xl">Thank you</h1>
+      <p class="text-lg">Your message has been sent</p>
+    </section>
   </div>
 </template>
 

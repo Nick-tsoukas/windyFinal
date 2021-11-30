@@ -2,8 +2,7 @@
   <!-- hero containert  -->
   <div
     data-aos="fade-right"
-    data-aos-duration="1000"
-    data-aos-offset="300"
+    data-aos-duration="500"
     data-aos-once="true"
     class="h-screen flex flex-col bg-primary text-white -mt-10"
   >
