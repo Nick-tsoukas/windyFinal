@@ -4,7 +4,7 @@
       style="line-height: 1.3em"
       class="
         rale
-        text-white text-center text-5xl
+        text-white text-center text-4xl
         mx-2
         md:text-6xl
         xl:text-left

@@ -1,10 +1,12 @@
 <template>
   <div
     style="height: 100px; width: 100%; background: black; z-index: 999999999999"
-    class="flex flex-row items-center pl-16"
+    class="block text-center pt-6 md:flex md:flex-row md:items-center md:pl-16"
   >
     <nuxt-link to="/"
-      ><h1 class="text-white text-4xl">{{ title }}</h1></nuxt-link
+      ><h1 class="text-white text-2xl md:text-4xl">
+        {{ title }}
+      </h1></nuxt-link
     >
     <div class="hidden justify-end pr-16 md:flex md:flex-row md:flex-grow">
       <nuxt-link class="text-white" to="/">Home</nuxt-link>
