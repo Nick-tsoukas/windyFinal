@@ -31,7 +31,7 @@
     "aos": "^2.3.4",
     "concurrently": "^6.2.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3",
+    "nuxt": "^3.0.0",
     "vue-easy-lightbox": "^0.16.1"
   },
   "devDependencies": {
